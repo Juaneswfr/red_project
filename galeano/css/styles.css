@@ -1,0 +1,49 @@
+#collage img{width:300px ; height:300px;}
+#collage .juegos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 25px 0;
+    }
+#collage {
+    max-width: none;
+}
+#one .content h2{
+    text-align: center;
+    padding: 25px;
+    text-transform: uppercase;
+    color:#76d8c4;
+  }
+  #one {
+    background-color: #EEE;
+    color: #777;
+    padding: 8em 0 6em 0;
+    position: relative;
+    display: block;
+    max-width: none;
+  
+  }
+  
+  #one .inner{display: flex;  margin: auto;justify-content: center;}
+  
+  #one .feature_left{display: flex;    background-color: #efefef;box-shadow: 1px 4px 6px 3px #0000003d;}
+  #one .feature_left .image img{width: 530px;}
+  
+  #one .feature_left .button_alt{ border: 2px solid #76d9c4;
+    border-radius: 20px;
+    font-size: 1.5em;
+    margin: 15px;
+    padding: 10px 40px;
+    font-weight: bold;
+    color: #76d9c4;
+    background-color: white;
+    display: block;
+    width: max-content;
+  }
+  #one .feature_left p{line-height: 2em;}
+  #one div article span {background-size: 50%;}
+  #one .content{width: 700px;padding: 20px;}
+  #one .inner:first-child{margin-bottom: 60px;}
+  #one .inner:nth-child(1){background-image: radial-gradient(circle, rgb(255, 255, 255) 53%, rgb(0, 127, 255) 88%, rgb(57, 66, 204) 96%);}
+  #one .inner:nth-child(2){background-image: radial-gradient(circle, rgb(255, 255, 255) 53%, rgb(135, 255, 24) 88%, rgb(22, 146, 34) 96%);}
+  #one .inner:last-child .feature_left{flex-direction: row-reverse;}

@@ -1,0 +1,92 @@
+footer{
+    max-width: initial;
+    background-image: url("../images/footer_image.gif");
+    background-attachment: fixed;
+}
+#wrap_contact h1{
+    text-align: center;
+    padding: 25px;
+    text-transform: uppercase;
+    color: white;
+}
+
+#wrap_contact form{
+    max-width: 500px;
+    margin: auto;
+    padding: 25px;
+}
+
+#wrap_contact form{
+    max-width: 500px;
+    margin: auto;
+    padding: 25px;
+}
+#wrap_contact form div textarea,
+#wrap_contact form div input{width: 100%; border:0; color:white; background-color: #91948f4a;     border-radius: 5px;   box-shadow: -3px -1px 9px 4px #00000021; padding: 15px; margin-bottom: 15px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;}
+#wrap_contact form div textarea{height: 350px;}
+#wrap_contact form div input[type=submit]{background-color:#00000073; transition: .5s all;}
+#wrap_contact form div textarea::placeholder,
+#wrap_contact form div input::placeholder{color: white;}
+#wrap_contact .curso_two_columns{display: flex;justify-content: space-between;}
+#wrap_contact .curso_two_columns input{margin: 0 0 15px; width: 47%;}
+
+#wrap_contact form div input[type=submit]:hover{background-color:#41bb78cb;}
+#wrap_footer #fac{
+    background-image: url(../images/facebook1.png);
+    background-size: cover;
+    background-position: center;
+    width: 26px;
+    height: 26px;}
+#wrap_footer #twi{
+    background-image: url(../images/twitter1.png);
+    background-size: cover;
+    background-position: center;
+    width: 26px;
+    height: 26px;} 
+#wrap_footer #ins{
+    background-image: url(../images/instagram1.png);
+    background-size: cover;
+    background-position: center;
+    width: 26px;
+    height: 26px;
+}   
+#wrap_footer .footer_logos{
+    margin: auto;
+    display: flex;
+    padding-top: 35px;
+    justify-content: center;
+}
+#wrap_footer .hr {
+    display: flex;
+    height: 2px;
+    background-color: rgb(92, 92, 92);
+    max-width: 1000px;
+    width: 100%;
+  justify-content: center;
+}
+#wrap_footer div.icons{
+    display: flex;
+    margin: 10px 10px;
+
+}
+#wrap_footer div.icons a{
+    margin: 0 12px;
+}
+#wrap_footer div.icons a:hover{
+    filter: invert(1);
+}
+#wrap_footer div.hrs{
+    display: flex;
+    justify-content: center;
+}
+#wrap_footer div.text h5{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.856);
+    padding-top: 30px;
+}
+#wrap_footer div.copyright p{
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
