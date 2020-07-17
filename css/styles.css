@@ -24,7 +24,4 @@ img{width: 100%;}
 #select_proyect .item figure img{object-fit: cover;height: 100%;opacity: 0.8;}
 #select_proyect .item h1{text-align: center; margin-top: 15px; font-family: 'Oswald'; color: white;letter-spacing: 5px;}
 
-
-#select_proyect .item{ }
-
 body{background: #0606068a url('/images/background.png') ;}
