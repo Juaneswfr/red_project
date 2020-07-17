@@ -1,0 +1,82 @@
+.header_div{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background: #000000;
+    text-align: center;
+}
+.sesion-container{
+    background: #ffffff22;
+    align-content: center;
+    padding: 40px;
+    height: 100%;
+    width: 100%;
+}
+input::placeholder {
+	color:#ccc;
+}
+.titulo{
+    margin: 0px;
+    transform: translateY(-15px);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form-container{
+    margin: 10% auto;
+    display: block;
+    background-color: grey;
+    padding: 3%;
+    width: 50%;
+    border-radius: 50%;
+}
+#sec_div_inpT,#sec_div_inpP{
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    width: 300px;
+    margin: 20px;
+    background: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    color: #ccc;
+    margin-top: 0px;
+}
+#sec_div_inpT:focus,#sec_div_inpP:focus{
+    background: #111;
+    color: #fff;
+    font-size: medium;
+    content: 40px;
+}
+#sec_btn_sub,#sec_btn_res{
+    position: relative;
+    display: inline;
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+    margin-top: 0px;
+    background: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 5px;
+    color: #999;
+}
+#sec_btn_sub:hover,#sec_btn_res:hover{
+    background: #121212;
+    position: static;
+    height: 52px;
+    width: 105px;
+    color: #ccc;
+}
+#sec_div_inpT:hover,#sec_div_inpP:hover{
+    background: #121212;
+    position: static;
+    height: 51px;
+    width: 301px;
+    color: ;
+}
+
