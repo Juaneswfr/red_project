@@ -3,6 +3,7 @@ header {
   background-image: linear-gradient(180deg, #0808088a 50%, #ffffff00 100%);
   width: 100%;
   position: fixed;
+  z-index: 5;
  }
 header .menu_header ul{
   display:flex;
@@ -16,46 +17,68 @@ header .menu_header ul li {
 }
 
 header .menu_header ul li a {
-  color: white
+  color: white;  
 }
 
 #banner { 
-  height: 600px;
-  color: rgba(255, 255, 255, 0.75);
-  background-image: url("../images/foto.jpg");
-  background-size: auto;
-  text-align: center;
-  font-family: fantasy; 
-  max-width: none;
-}  
+  height: 500px;
+    color: rgba(255, 255, 255, 0.75);
+    background-size: 100% 100%;
+    text-align: center;
+    font-family: cursive;
+    display: flex;
+    flex-wrap: wrap;
+    JUSTIFY-CONTENT: left;
+    max-width: none;
+    animation: banner 10s infinite;
+    animation-direction: alternate;
+} 
+
+@keyframes banner {
+  0%, 30% {
+    background-image: url("../images/marcadores.png");
+    opacity: 1;
+   }
+
+   31%, 34% {
+     opacity:0.1;
+   }
+
+   35%, 65% {
+    background-image: url("../images/hojas.jpg");
+    opacity: 1;
+   }
+
+  66%, 69% {
+  opacity: 0.1;
+  }
+
+   70%, 100% {
+    background-image: url("../images/cinta.jpg");
+    opacity: 1;
+   }
+}
+
+#banner .curso_content  {
+  
+    padding: 8em 0 6em 0;
+    position: relative;
+    display: block;
+    max-width: none;}
 
 #banner .curso_content p {
-  font-family: arial;
-  color: white;
-
+ 
+  padding: 5em 0 6em 0;
+  position: relative;
+  display: block;
+  max-width: none;
 }
 
-.hola
-{
-	font-size: 2.5em;
-  margin: 0 0 0.5em 0;
-  padding: 0;
-  color: white;
-}
-
-.button{
-	font-size: 1.2em;
-  height: 3.25em;
-  line-height: 3.25em;
-  padding: 0 2.5em;
-	color: white;
-	background-color: #51BAA4;
-	border-radius: 25px;
-  border:none;
-  margin-top: 10px;
-}
-
-.button:hover{
-  background-color:  2white ;
-  color:#51BAA4;
+#banner .curso_content h1 {
+  font-family: cursive;
+  position: absolute;
+  text-align: center;
+  padding: 25px;
+  text-transform: uppercase;
+  color:black;
 }
