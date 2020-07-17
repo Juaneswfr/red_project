@@ -1,7 +1,18 @@
 /*========== ResetCSS ==========*/
 *,html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,tr,select,input{appearance:inherit; -moz-appearance:inherit; -webkit-appearance:inherit; background:transparent; border:none; border-radius:0; box-sizing: border-box; margin:0; outline:0; padding:0; text-decoration:none;}
 
-section{max-width: 1700px; width: 100%; margin: auto;}
+/*========== COLORS ==========*/
+:root {
+	--tone_1: #70A7D4;
+	--tone_2: #3D8ED1;
+	--tone_3: #265A85;
+	--tone_4: #193B57;
+    --gris: #788D9E;	
+	--blanco: #fff;	
+	--negro: #000;	
+}
+
+section{max-width: 1700px; width: 100%; margin: auto; position: relative;}
 img{width: 100%;}
 
 #select_proyect{display: flex; flex-wrap: wrap; justify-content: center; height: 100vh; align-content: center;}
@@ -12,5 +23,8 @@ img{width: 100%;}
 #select_proyect .item figure{width: 300px; height: 300px;box-shadow: 6px 10px 15px 9px #3c3c3c; transition: all 1s;}
 #select_proyect .item figure img{object-fit: cover;height: 100%;opacity: 0.8;}
 #select_proyect .item h1{text-align: center; margin-top: 15px; font-family: 'Oswald'; color: white;letter-spacing: 5px;}
+
+
+#select_proyect .item{ }
 
 body{background: #0606068a url('/images/background.png') ;}
