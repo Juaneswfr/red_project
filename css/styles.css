@@ -11,17 +11,26 @@
 	--blanco: #fff;	
 	--negro: #000;	
 }
-
+/*========== CSS GENERALES ==========*/
 section{max-width: 1700px; width: 100%; margin: auto; position: relative;}
 img{width: 100%;}
+main{position: relative;}
+a{text-decoration: none; color: unset;}
+span {color:inherit;}
+.project_content{max-width: 1700px; width: 100%; margin: auto; position: relative;}
+body.home{background: #0606068a url('/images/background.png') ;}
 
-#select_proyect{display: flex; flex-wrap: wrap; justify-content: center; height: 100vh; align-content: center;}
-#select_proyect .item{color: Black;margin: 10px 20px;}
-#select_proyect .item:hover figure{width: 320px; height: 320px;}
-#select_proyect .item:hover figure img{opacity: 1;}
+/*========== INICIO ==========*/
+#project_select{display: flex; flex-wrap: wrap; justify-content: center; margin-top:30vh; align-content: center;}
+#project_select .item{color: Black;margin: 10px 20px;}
+#project_select .item:hover figure{width: 320px; height: 320px;}
+#project_select .item:hover figure img{opacity: 1;}
+#project_select .item figure{width: 300px; height: 300px;box-shadow: 6px 10px 15px 9px #3c3c3c; transition: all 1s;}
+#project_select .item figure img{object-fit: cover;height: 100%;opacity: 0.8;}
+#project_select .item h1{text-align: center; margin-top: 15px; font-family: 'Oswald'; color: white;letter-spacing: 5px;}
 
-#select_proyect .item figure{width: 300px; height: 300px;box-shadow: 6px 10px 15px 9px #3c3c3c; transition: all 1s;}
-#select_proyect .item figure img{object-fit: cover;height: 100%;opacity: 0.8;}
-#select_proyect .item h1{text-align: center; margin-top: 15px; font-family: 'Oswald'; color: white;letter-spacing: 5px;}
+/*========== IR HACIA EL BACKEND ==========*/
+#project_going_backend{text-align: center; margin-top: 90px;}
+#project_going_backend a{ margin:25px;transition: all .4s ; font-size:1em; text-decoration: none;margin-top: 15px; font-family: 'Oswald'; color: white;letter-spacing: 5px;}
+#project_going_backend a:hover{ font-size:1.4em; color: aquamarine; }
 
-body{background: #0606068a url('/images/background.png') ;}

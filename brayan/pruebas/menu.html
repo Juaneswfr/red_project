@@ -1,0 +1,50 @@
+<html>
+
+<head>
+</head>
+
+<body>
+    <div id="container"></div>
+    <div class="large-10 columns">
+        <input type="radio" name="urgent" value="1" id="pokemonRed"><label for="pokemonRed">Si</label>
+        <input type="radio" name="urgent" value="0" id="pokemonBlue"><label for="pokemonBlue">No</label>
+    </div>
+    </div>
+    <div class="row collapse">
+        <div class="large-2 columns">
+            <label class="inline">¿Desea recibir noticias?</label>
+        </div>
+        <div class="large-10 columns">
+            <input id="checkbox1" type="checkbox" name="news[]" value="1"><label for="checkbox1">Del sitio</label>
+            <input id="checkbox2" type="checkbox" name="news[]" value="2"><label for="checkbox2">Del blog</label>
+        </div>
+        <div>
+            <select name="" id="" disabled="disabled">
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ul>
+            </select>
+            <option value="">Creo que este es el nombre</option>
+        </div>
+        <div class="large-10 columns">
+            <select name="language">
+              <?php 
+              $i = 0;
+              while( $i < count( $languages ) ){ 
+                ?>
+              <option value="<?php echo $i; ?>"><?php echo $languages[$i]; ?></option>
+              <?php 
+              $i++;
+              } ?>
+            </select>
+          </div>
+        <script type="text/javascript">
+            var container = document.getElementById('container');
+            container.innerHTML =
+                '    <div id="menu"><div class="logo-principal"></div><hr class="hr"><div class="container-menu">    <div class="logo-home"></div>    <p class="texto">Home</p></div><hr class="hr"><div class="container-menu">    <div class="logo-home"></div>    <p class="texto">Home1</p></div><hr class="hr"><div class="container-menu">    <div class="logo-home"></div>    <p class="texto">Home2</p></div><hr class="hr"><div class="container-menu">    <div class="logo-home"></div>    <p class="texto">Home3</p></div></div>';
+        </script>
+</body>
+
+</html>

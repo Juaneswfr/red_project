@@ -1,3 +1,11 @@
+:root{
+  --galeano_tone_1:#22BD84;
+  --galeano_tone_2:#2E8867;
+  --galeano_tone_3:#14704E;
+}
+
+body{background: #fff;}
+
 #banner {
   max-width: none;
   height: 450px;
@@ -12,6 +20,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 25px 0;
+    background-color: #fff;
     }
 #collage {
     max-width: none;
@@ -20,11 +29,11 @@
     text-align: center;
     padding: 25px;
     text-transform: uppercase;
-    color:#76d8c4;
+    color:#22BD84;
   }
   #one {
     background-color: #EEE;
-    color: #777;
+    color: #000000;
     padding: 8em 0 6em 0;
     position: relative;
     display: block;
@@ -37,14 +46,14 @@
   #one .feature_left{display: flex;    background-color: #efefef;box-shadow: 1px 4px 6px 3px #0000003d;}
   #one .feature_left .image img{width: 530px;}
   
-  #one .feature_left .button_alt{ border: 2px solid #76d9c4;
+  #one .feature_left .button_alt{ border: 2px solid #22BD84;
     border-radius: 20px;
     font-size: 1.5em;
     margin: 15px;
     padding: 10px 40px;
     font-weight: bold;
-    color: #76d9c4;
-    background-color: white;
+    color: #fff;
+    background-color: #22BD84;
     display: block;
     width: max-content;
   }
@@ -59,7 +68,7 @@
   header {
     width:100%; 
     overflow:hidden; 
-    background:#fff;
+    background:#22BD84;
     margin-bottom:20px;
     position: fixed;
     z-index: 5;
@@ -73,8 +82,8 @@
   }
   
   header .logo {
-    color:#000000;
-    font-size:32px;
+    color:#fff;
+    font-size:25px;
     float:left;
   }
   
@@ -84,10 +93,11 @@
   
   header nav a {
     display:inline-block;
-    color:#000000;
+    color:#fff;
     text-decoration:none;
     padding:10px 20px;
-    font-size:20px;
+    font-size:13px;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight:bold;
     -webkit-transition:all 500ms ease;
     -o-transition:all 500ms ease;
@@ -95,15 +105,20 @@
   }
   
   header nav a:hover {
-    background:#f56f3a;
+    background:#14704E;
     border-radius:50px;
   }
 
-  footer{
-    max-width: initial;
-    background-color: #000000; 
-    background-attachment: fixed;
-}
+/*submenu del home*/ 
+#wrap_submenu_home .icons div {display: block;}
+#wrap_submenu_home .icons {text-align: center;  margin: 28px 0 35px;}
+#wrap_submenu_home .icons a {display: inline-block; margin-right: 3.5vw; background-color: transparent;}
+#wrap_submenu_home .icons img {max-width: 90%; vertical-align: middle;}
+#wrap_submenu_home .icons a p {font-weight: 600;}
+#wrap_submenu_home .icons p {margin-top: 0; margin-bottom: 0; display: block; margin-block-start: 1em; margin-block-end: 1em; margin-block-start: 0px; margin-block-end: 0px;}
+
+/*footer*/
+footer{max-width: initial;background-color: #0c110f; background-attachment: fixed;}
 #wrap_footer #fac{
     background-image: url(../images/facebook.png);
     background-size: cover;
@@ -163,3 +178,88 @@
     padding: 20px 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+#form_contact {
+  max-width: 700px;
+  margin: auto;
+  padding: 25px;
+  color: #22BD84;
+}
+
+#form_contact input {padding: 15px; color: white; border-bottom: 1px solid #22BD84;}
+
+#form_contact input::placeholder {
+  color: white;
+}
+
+#form_contact input[type=submit]{
+  background-color: #22BD84;
+  color: white;
+}
+
+#form_contact textarea {
+  border: 2px solid #22BD84;
+  padding: 15px;
+  color: #22BD84;
+}
+
+#form_contact textarea::placeholder {
+  color: white;
+}
+
+#wrap_footer form div textarea,
+#wrap_footer form div input{width: 100%; border:0; color:white; background-color: #35b38436;     border-radius: 5px;   box-shadow: -3px -1px 9px 4px #00000021; padding: 15px; margin-bottom: 15px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;}
+#wrap_footer form div textarea{height: 350px;}
+#wrap_footer form div input[type=submit]{background-color:#22BD84; transition: .5s all;}
+#wrap_footer form div textarea::placeholder,
+#wrap_footer form div input::placeholder{color: white;}
+#wrap_footer .curso_content{display: flex;justify-content: space-between;}
+#wrap_footer .curso_content input{margin: 0 15px 15px 0; width: 47%;}
+
+#wrap_contact form div input[type=submit]:hover{background-color:#22BD84;}
+
+#wrap_info_product .content h1{
+  text-align: center;
+  padding: 25px;
+  text-transform: uppercase;
+  color:#2E8867;
+  font-family:'Times New Roman';
+font-size: 20px;
+}
+#wrap_info_product {
+  background-color: #EEE;
+  background-color: #fff;
+  padding: 8em 0 6em 0;
+  position: relative;
+  display: block;
+  max-width: none;
+  font-family:'Times New Roman';
+  font-size: 12px;
+
+}
+
+#wrap_info_product .product{display: flex;  margin: auto;justify-content: center;
+font-family:'Times New Roman';
+font-size: 12px;
+}
+
+#wrap_info_product .feature_left{display: flex;    background-color: #efefef;box-shadow: 1px 4px 6px 3px #0000003d;}
+#wrap_info_product .feature_left .image img{width: 530px;}
+
+#wrap_info_product .feature_left .button_alt{ border: 2px solid #22BD84;
+  border-radius: 20px;
+  font-size: 1.5em;
+  margin: 15px;
+  padding: 10px 40px;
+  font-weight: bold;
+  color: #fff;
+  background-color:#22BD84;
+  display: block;
+  width: max-content;
+}
+#wrap_info_product .feature_left p{line-height: 2em;}
+#wrap_info_product div article span {background-size: 50%;}
+#wrap_info_product .content{width: 700px;padding: 20px;}
+#wrap_info_product .product:first-child{margin-bottom: 60px;}
+#wrap_info_product .product:nth-child(1){background-color: #fff;}
+#wrap_info_product .product:last-child .feature_left{flex-direction: row-reverse;}
