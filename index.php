@@ -10,7 +10,7 @@
 
 
          <script type="text/javascript">
-            var estilosjuanes = '/css/styles.css?' + Math.random();
+            var estilosjuanes = '/red_css/red_styles.css?' + Math.random();
           </script>
           
           <script type="text/javascript">
@@ -30,27 +30,27 @@
                 <a class="item" href="/gina/index.php">
 
                     <figure>
-                        <img src="/images/gina_project.jpg" alt="Miscelánea compra todo lo que quieras">
+                        <img src="/red_images/gina_project.jpg" alt="Miscelánea compra todo lo que quieras">
                     </figure>
                     <h1>Miscelánea</h1>
                 </a>
                 
                 <a class="item" href="/galeano/index.php">
                     <figure>
-                        <img src="/images/galeano_project.jpg" alt="Videojuegos compra todo lo que quieras">
+                        <img src="/red_images/galeano_project.jpg" alt="Videojuegos compra todo lo que quieras">
                     </figure>
                     <h1>Videojuegos</h1>
                 </a>
 
                 <a class="item" href="/angel/index.php">
                     <figure>
-                        <img src="/images/angel_project.jpg" alt="Ropa compra todo lo que quieras">
+                        <img src="/red_images/angel_project.jpg" alt="Ropa compra todo lo que quieras">
                     </figure>
                     <h1>Ropa</h1>
                 </a>
                 <a class="item" href="/andres/index.php">
                     <figure>
-                        <img src="/images/andres_project.jpg" alt="Ropa compra todo lo que quieras">
+                        <img src="/red_images/andres_project.jpg" alt="Ropa compra todo lo que quieras">
                     </figure>
                     <h1>Finanzas</h1>
                 </a>
