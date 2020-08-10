@@ -19,7 +19,7 @@
 
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home</title>
+        <title>Jinnova Redproject</title>
     </head>
     <body class="home">
         
@@ -27,39 +27,40 @@
 
             <section id="project_select">
                 
-                <a class="item" href="/gina/index.php">
+               <?php /* <a class="item" href="/gina/">
 
                     <figure>
                         <img src="/red_images/gina_project.jpg" alt="Miscelánea compra todo lo que quieras">
                     </figure>
-                    <h1>Miscelánea</h1>
-                </a>
+                    <h1>Gina</h1>
+                </a> */ 
+                ?>
                 
-                <a class="item" href="/galeano/index.php">
+                <a class="item" href="/pitchfork_games/">
                     <figure>
                         <img src="/red_images/galeano_project.jpg" alt="Videojuegos compra todo lo que quieras">
                     </figure>
-                    <h1>Videojuegos</h1>
+                    <h1>PITCHFORK GAMES</h1>
                 </a>
 
-                <a class="item" href="/angel/index.php">
+                <a class="item" href="/aesclothes/">
                     <figure>
                         <img src="/red_images/angel_project.jpg" alt="Ropa compra todo lo que quieras">
                     </figure>
-                    <h1>Ropa</h1>
+                    <h1>AESCLOTHES</h1>
                 </a>
-                <a class="item" href="/andres/index.php">
+                <a class="item" href="/master_finance/">
                     <figure>
-                        <img src="/red_images/andres_project.jpg" alt="Ropa compra todo lo que quieras">
+                        <img src="/red_images/andres_project.jpg" alt="Finanzas pa todo el mundo">
                     </figure>
-                    <h1>Finanzas</h1>
+                    <h1>MASTER FINANCE</h1>
                 </a>
 
 
             </section>
 
             <section id="project_going_backend">
-                    <a href="/brayan/">
+                    <a href="/backend/">
                         <span class="ico_project_backend fas fa-users"></span>
                          - Ingresar al sistema
                     </a>

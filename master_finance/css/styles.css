@@ -1,0 +1,19 @@
+:root{
+  --mf_tone_1:#296EC2;
+  --mf_tone_2:#48668C;
+  --mf_tone_3:#194375;
+  --mf_tone_4:#638EC2;
+  --mf_tone_5:#0E2542;
+}
+header{background-color: var(--mf_tone_5);width: 100%;display:flex;}
+header .red_content {display:flex;align-items: center;justify-content: space-between;}
+header .nav_left img{width:100px ; text-align: center;}
+header .nav_right img{width:40px;padding:0px 0px 0px 8px;}
+header .red_content .nav_left a{padding: 10px 10px 10px 10px;color:#d3ebed;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+header .red_content .nav_left a:hover{background-color:#339c8e;color:#000000;border-radius: 20px;}
+header .nav_left{display:flex;align-items:center;}
+#wrap_banner{max-width: none;}
+#wrap_banner .banner_content img{height: 400px;object-fit: cover;background-attachment: fixed;}
+
+
+ 

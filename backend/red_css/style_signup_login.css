@@ -193,12 +193,15 @@ input:focus~.line::before {
     text-align: center;
     padding: 10px;
     cursor: pointer;
+    outline: none;
 }
 
 .button:active {
     vertical-align: top;
     padding-top: 8px;
     outline: none;
+    border: none;
+    border-color: none;
 }
 
 .button:hover {

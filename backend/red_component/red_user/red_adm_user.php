@@ -1,29 +1,29 @@
 <?php 
 
-include("Conexion_db.php");
+include $_SERVER['DOCUMENT_ROOT'].'/backend/red_function/red_connection/red_connection.php';
 
-if (isset($_POST['ingresar'])) {
-    if (strlen($_POST['nombre']) >= 1 && strlen($_POST['email']) >= 1 && strlen($_POST['usuario']) >= 1 && strlen($_POST['contraseña']) >= 1) {
-		$nombre = trim($_POST['nombre']);
-		$usuario= trim($_POST['usuario']);
+if (isset($_POST['enter'])) {
+    if (strlen($_POST['name']) >= 1 && strlen($_POST['email']) >= 1 && strlen($_POST['user']) >= 1 && strlen($_POST['password']) >= 1) {
+		$name = trim($_POST['name']);
+		$user= trim($_POST['user']);
 		$email = trim($_POST['email']);
-		$contraseña = trim($_POST['contraseña']);
-		$confirmarContraseña = trim($_POST['confirmar_contraseña']);
-		$fecha_registro = date("d/m/y");
-		$consulta = "INSERT INTO datos(nombre, usuario, email, contraseña, fecha_registro) VALUES ('$nombre','$usuario','$email','$contraseña','$fecha_registro')";
+		$password = trim($_POST['password']);
+		$confirmpassword = trim($_POST['confirm_password']);
+		$date_sign_up = date("d/m/y");
+		$consulta = "INSERT INTO datos(name, user, email, password, date_sign_up) VALUES ('$name','$user','$email','$password','$date_sign_up')";
 		
 		$verificar_email = mysqli_query($conex, "SELECT	* FROM datos WHERE email='$email'");
-		$verificar_usuario= mysqli_query($conex, "SELECT * FROM datos WHERE usuario='$usuario'");
+		$verificar_user= mysqli_query($conex, "SELECT * FROM datos WHERE user='$user'");
 		if (mysqli_num_rows($verificar_email) > 0){
 			echo 'El email ya está registrado';
 			exit;
-		}else if (mysqli_num_rows($verificar_usuario) > 0){
-			echo 'El usuario ya está registrado';
+		}else if (mysqli_num_rows($verificar_user) > 0){
+			echo 'El user ya está registrado';
 			exit;
 		}
 		
 
-		if($contraseña==$confirmarContraseña){
+		if($password==$confirmpassword){
 			$resultado = mysqli_query($conex,$consulta);
 	    	if ($resultado) {
 	    	?> 
@@ -38,10 +38,10 @@ if (isset($_POST['ingresar'])) {
 			}
 
 		} else {
-			echo "Las contraseñas no son iguales";
+			echo "Las passwords no son iguales";
 			exit;
 		}
-		header('Location: ./index.php');
+		header('Location:/backend/index.php');
 
 
 	    

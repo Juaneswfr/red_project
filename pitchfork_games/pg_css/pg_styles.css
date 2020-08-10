@@ -1,0 +1,138 @@
+:root {--galeano_tone_1:#22BD84; --galeano_tone_2:#2E8867; --galeano_tone_3:#14704E; --galeano_tone_4:#0b4d37;}
+
+body{background: #fff;}
+
+@font-face {font-family: "planets"; src: url("/red_font/Planets.otf");}
+
+/*banner*/
+#banner {max-width: none; height: 450px;}
+#banner figure img {height: 450px; object-fit: cover;}
+
+/*banner de star wars promo*/
+#wrap_img_promo {max-width: none;}
+#wrap_img_promo figure img {object-fit: cover;}
+#wrap_img_promo article {padding: 40px ;color: #fff; position: absolute; bottom: 20%; z-index: 1; width: 100%; max-width: 400px; right: 0;}
+#wrap_img_promo article h2 {padding: 0px 0px 45px 0px;}
+#wrap_img_promo article p {padding: 0px 0px 45px 0px;}
+#wrap_img_promo .button_content_star {padding: 10px 40px; margin: 15px; border: 2px solid #fff; border-radius: 20px; font-weight: bold; display: inline-block;}
+#wrap_img_promo .button_content_star:hover {background-color: white; border-radius: 20px; color: black;} 
+
+/*grupo de imagenes*/ 
+#main_content_home {display: flex; }
+#main_content_left {width: 50%; margin: 0;}
+#main_content_right {width: 50%; margin: 0;}
+#main_content_right .up img {width: 749.44px; height: 762px;}
+#main_content_left .up h2 {padding: 2px; margin: 5px 1px 5px 5px;}
+#main_content_left .up p {padding: 2px; margin-top: 2px;}
+#main_content_home .down {display: flex;} 
+#main_content_home .down figure {width: 50%;}
+#main_content_home .down article {width: 50%; padding: 15px; background-color: var(--galeano_tone_1);}
+#main_content_home .down h3 {padding: 2px; margin: 5px 1px 5px 5px;}
+#main_content_home .down p {padding: 2px; margin-top: 2px;}
+#main_content_home #main_content_right .down {flex-direction: row-reverse;}  
+.button_content_home_one {padding: 10px 40px; margin: 15px; border: 2px solid #fff; border-radius: 20px; font-weight: bold; display: inline-block;}
+.button_content_home_one:hover {background-color: #b15050; border-radius: 20px #000000;}
+.button_content_home_two:hover {background-color: #fff; border-radius: 20px #000000; color: #000000;}
+.button_content_home_two {padding: 10px 40px; margin: 15px; border: 2px solid #fff; border-radius: 20px; font-weight: bold; display: inline-block;}
+#main_content_right .up .img_gradient {position: absolute; top: 0; width: 100%; height: 100%; z-index: 1; background: linear-gradient(0deg, black 25%, transparent);}
+#main_content_right .up figure {position: relative;}
+#main_content_right .up article {background: black; position: absolute; bottom: 0; z-index: 2; width: 100%;}
+#main_content_right .up {position: relative;}
+#main_content_left .up .img_gradient {position: absolute; top: 0; width: 100%; height: 100%; z-index: 1; background: linear-gradient(0deg, #000000 25%, transparent);}
+#main_content_left .up figure {position: relative;}
+#main_content_left .up article {background: #000000; position: absolute; bottom: 0; z-index: 2; width: 100%;}
+#main_content_left .up {position: relative;}
+#main_content_home .up article {padding: 16px 40px; color: white;}
+#main_content_home .up h2 {margin-bottom: 10px;}
+#main_content_home .up p {margin-bottom: 10px;}
+#main_content_right .down article {background: linear-gradient(90deg, var(--galeano_tone_1) 15%, var(--galeano_tone_4)); color: white;}
+#main_content_left .down article {background: linear-gradient(90deg, var(--galeano_tone_1) 15%, var(--galeano_tone_4)); color: white;}
+
+
+
+/*collage de juegos home*/
+#collage img{width:300px ; height:300px;}
+#collage .juegos {display: flex; flex-wrap: wrap; justify-content: center; margin: 25px 0; background-color: #fff;}
+#collage {max-width: none;} 
+
+/*información consolas nuevas*/
+#one .content h2 {text-align: center; padding: 25px; text-transform: uppercase; color:#22BD84;}
+#one {background-color: #EEE; color: #000000; padding: 4em 0 3em 0; position: relative; display: block;max-width: none;}
+#one .inner{display: flex;  margin: auto;justify-content: center;}
+#one .feature_left{display: flex;    background-color: #efefef;box-shadow: 1px 4px 6px 3px #0000003d;}
+#one .feature_left .image img{width: 530px;}
+#one .feature_left .button_alt {border: 2px solid #22BD84; border-radius: 20px; font-size: 1.5em; margin: 15px; padding: 10px 40px; font-weight: bold; color: #fff; background-color: #22BD84; display: block; width: max-content;}
+#one .feature_left p {line-height: 2em;}
+#one div article span {background-size: 50%;}
+#one .content{width: 700px;padding: 20px;}
+#one .inner:first-child{margin-bottom: 60px;}
+#one .inner:nth-child(1){background-image: radial-gradient(circle, rgb(255, 255, 255) 53%, rgb(0, 127, 255) 88%, rgb(57, 66, 204) 96%);}
+#one .inner:nth-child(2){background-image: radial-gradient(circle, rgb(255, 255, 255) 53%, rgb(135, 255, 24) 88%, rgb(22, 146, 34) 96%);}
+#one .inner:last-child .feature_left{flex-direction: row-reverse;}
+
+/*header*/  
+header {width:100%; background: linear-gradient(45deg, black 55%, transparent); margin-bottom:20px; position: fixed; z-index: 5;} 
+.wrapper {width:90%; max-width:1000px; margin:auto; display: flex; justify-content: space-between;}
+header nav {display: flex;}
+header .logo {float:left;}
+header .wrapper .logo {display: flex;}
+header .wrapper .logo div {display: flex;}
+ul, li {list-style: none;}
+header .link_submenu {position: relative;} 
+header .link_submenu:hover .submenu {opacity: 1; z-index: 3;}
+header .link_submenu .submenu {position: absolute; opacity: 0; z-index: -1; transition: .4s all; top: 0; padding: 70px 20px; display: none;}
+header nav a {display:inline-block; color:#fff; text-decoration:none; padding:20px 20px; font-size:13px; font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif; font-weight:bold; -webkit-transition:all 500ms ease; -o-transition:all 500ms ease; transition:all 500ms ease;}
+header nav a:hover {background: var(--galeano_tone_1);}
+
+/*submenu del home*/ 
+#wrap_submenu_home .icons div {display: block;}
+#wrap_submenu_home .icons {text-align: center;  margin: 28px 0 35px;}
+#wrap_submenu_home .icons a {display: inline-block; margin-right: 3.5vw; background-color: transparent;}
+#wrap_submenu_home .icons img {max-width: 90%; vertical-align: middle;}
+#wrap_submenu_home .icons a p {font-weight: 600;}
+#wrap_submenu_home .icons p {margin-top: 0; margin-bottom: 0; display: block; margin-block-start: 1em; margin-block-end: 1em; margin-block-start: 0px; margin-block-end: 0px;}
+
+/*footer*/
+footer{max-width: initial;background-color: #0c110f; background-attachment: fixed;}
+#wrap_footer #fac {background-image: url(../pg_images/facebook.png); background-size: cover; background-position: center; width: 26px; height: 26px;}
+#wrap_footer #twi {background-image: url(../pg_images/twitter.png); background-size: cover; background-position: center; width: 26px; height: 26px;} 
+#wrap_footer #ins {background-image: url(../pg_images/instagram.png); background-size: cover; background-position: center; width: 26px; height: 26px;}   
+#wrap_footer .footer_logos {margin: auto; display: flex; padding-top: 35px; justify-content: center;}
+#wrap_footer .hr {display: flex; height: 2px; background-color: rgb(92, 92, 92); max-width: 1000px; width: 100%; justify-content: center;}
+#wrap_footer div.icons {display: flex; margin: 10px 10px;}
+#wrap_footer div.icons a {margin: 0 12px;}
+#wrap_footer div.icons a:hover {filter: invert(1);}
+#wrap_footer div.hrs {display: flex; justify-content: center;}
+#wrap_footer div.text h5 {text-align: center; color: rgba(0, 0, 0, 0.856); padding-top: 30px;}
+#wrap_footer div.copyright p {color: whitesmoke; text-align: center; padding: 20px 20px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+/*formulario de contacto*/
+#form_contact {max-width: 700px; margin: auto; padding: 25px; color: #22BD84;}
+#form_contact input {padding: 15px; color: white; border-bottom: 1px solid #22BD84;}
+#form_contact input::placeholder {color: white;}
+#form_contact input[type=submit]{background-color: #22BD84; color: white;}
+#form_contact textarea {border: 2px solid #22BD84; padding: 15px; color: #22BD84;}
+#form_contact textarea::placeholder {color: white;}
+#wrap_footer form div textarea,
+#wrap_footer form div input{width: 100%; border:0; color:white; background-color: #35b38436;     border-radius: 5px;   box-shadow: -3px -1px 9px 4px #00000021; padding: 15px; margin-bottom: 15px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;}
+#wrap_footer form div textarea{height: 350px;}
+#wrap_footer form div input[type=submit]{background-color:#22BD84; transition: .5s all;}
+#wrap_footer form div textarea::placeholder,
+#wrap_footer form div input::placeholder{color: white;}
+#wrap_footer .red_content{display: flex;justify-content: space-between;}
+#wrap_footer .red_content input{margin: 0 15px 15px 0; width: 47%;}
+#wrap_contact form div input[type=submit]:hover{background-color:#22BD84;}
+
+/*estilos de producto ps4*/
+#wrap_info_product .content h1 {text-align: center; padding: 25px; text-transform: uppercase; color:#2E8867; font-family:'Times New Roman'; font-size: 20px;}
+#wrap_info_product {background-color: #EEE; background-color: #fff; padding: 8em 0 6em 0; position: relative; display: block; max-width: none; font-family:'Times New Roman'; font-size: 12px;}
+#wrap_info_product .product {display: flex;  margin: auto;justify-content: center; font-family:'Times New Roman';font-size: 12px;}
+#wrap_info_product .feature_left{display: flex;    background-color: #efefef; box-shadow: 1px 4px 6px 3px #0000003d;}
+#wrap_info_product .feature_left .image img{width: 530px;}
+#wrap_info_product .feature_left .button_alt{ border: 2px solid #22BD84; border-radius: 20px; font-size: 1.5em; margin: 15px; padding: 10px 40px; font-weight: bold; color: #fff; background-color:#22BD84; display: block; width: max-content;}
+#wrap_info_product .feature_left p{line-height: 2em;}
+#wrap_info_product div article span {background-size: 50%;}
+#wrap_info_product .content{width: 700px;padding: 20px;}
+#wrap_info_product .product:first-child{margin-bottom: 60px;}
+#wrap_info_product .product:nth-child(1){background-color: #fff;}
+#wrap_info_product .product:last-child .feature_left{flex-direction: row-reverse;}

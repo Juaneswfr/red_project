@@ -34,3 +34,6 @@ body.home{background: #0606068a url('/red_images/background.png') ;}
 #project_going_backend a{ margin:25px;transition: all .4s ; font-size:1em; text-decoration: none;margin-top: 15px; font-family: 'Oswald'; color: white;letter-spacing: 5px;}
 #project_going_backend a:hover{ font-size:1.4em; color: aquamarine; }
 
+
+/*========== ELIMINAR MARCA DE AGUA ==========*/
+div[style="text-align: right;position: fixed;z-index:9999999;bottom: 0;width: auto;right: 1%;cursor: pointer;line-height: 0;display:block !important;"]{width: 0!important; opacity: 0; overflow: hidden; }
