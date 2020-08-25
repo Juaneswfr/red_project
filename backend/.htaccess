@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{SCRIPT_FILENAME} !-d
+	RewriteCond %{SCRIPT_FILENAME} !-f
+	
+	 
+	############################### V:0.1 ###############################
+	
+		#LOGIN
+		RewriteRule ^login$ /backend/red_module/red_security/red_login.php?option=login
+
+
+	#####################################################################
+
+</IfModule>

@@ -1,0 +1,234 @@
+:root {
+    --colorTextos: #49454567;
+}
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+    background: #4568DC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    color: #201c1cce;
+}
+
+form {
+    background: #fff;
+    padding: 40px 0;
+    box-shadow: 0 0 6px 0 #ffffffcc;
+    border-radius: 10px;
+}
+
+.form {
+    width: 100%;
+    margin: auto;
+}
+
+form .grupo {
+    position: relative;
+    margin: 45px;
+}
+
+.right {
+    position: relative;
+    margin: 45px;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.right-bottom {
+    position: relative;
+    margin: 45px;
+    display: inline-block;
+    margin-top: 0;
+}
+
+input {
+    background: none;
+    color: #c6c6c6;
+    font-family: 'roboto';
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--colorTextos);
+}
+
+input:-webkit-autofill {
+    background-color: transparent;
+    font-size: 18px;
+    font-family: 'roboto';
+    color: #49454567;
+    -webkit-text-fill-color: var(--colorTextos);
+}
+
+input:focus {
+    font-family: 'roboto';
+    outline: none;
+    color: #5e5d5d;
+}
+
+label {
+    color: #2196f3;
+    /*var(--colorTextos);*/
+    font-size: 12px;
+    /*16px*/
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    top: -14px;
+    /*10px*/
+    transition: 0.5s ease-in-out all;
+    pointer-events: none;
+}
+.bot_line{
+    position: relative;
+    margin: 45px;
+    margin-bottom: 20px;
+}
+.remember_container{
+    display: inline-block;
+    width: 100%;
+    margin-top: 0;
+    text-align: left;
+    padding: 5px;
+}
+.checkbox{
+    transform: translateX(20px);
+    color: #000;
+    height: 13px;
+    width: 13px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 0;
+    display: inline-block;
+}
+
+.remember{
+    transform: translateX(25px) translateY(-1px);
+    display: inline-block;
+    color: #0000009d;
+    font-family: 'roboto';
+    font-size: 15px;
+}
+
+
+/*input:focus~label,
+input:valid~label
+    {
+    top: -14px;
+    font-size: 12px;
+    color: #2196f3;
+}
+*/
+input::placeholder {
+    font-family: 'roboto';
+    font-size: 16px;
+    outline: none;
+    color: #5e5d5db7;
+    animation: 0.5 all;
+}
+
+.line {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.line::before {
+    content: "";
+    height: 2px;
+    width: 0%;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+    transition: 0.3s ease width;
+    left: 0;
+}
+
+
+input:focus~.line::before {
+    width: 100%;
+}
+
+.button {
+    font-family: 'roboto';
+    background: #4568DC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    color: #fff;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 10rem;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.button:active {
+    vertical-align: top;
+    padding-top: 8px;
+    outline: none;
+    border: none;
+    border-color: none;
+}
+
+.button:hover {
+    background: linear-gradient(to right, #a35ea5, #3d5fce);
+}
+
+
+
+
+@media screen and (max-width:500px) {
+    form {
+        width: 80%;
+    }
+}
+
+
+
+
+/* Php messages */
+
+.message_php{
+    top: 0px;
+    position: absolute;
+    margin: 1rem;
+    margin-left: 0;
+    color: #e2e2e2;
+    background: linear-gradient(to right, #a35ea556, #3d5fce00);;
+    border-radius: 7px;
+    padding: .5rem;
+    width: auto;
+}
