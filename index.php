@@ -8,6 +8,7 @@
         <meta http-equiv="Pragma" content="no-cache">
         <script src="https://kit.fontawesome.com/f7bc814e34.js" crossorigin="anonymous"></script>
 
+        <link rel="icon" type="image/png" href="/red_images/favicon.png">
 
          <script type="text/javascript">
             var estilosjuanes = '/red_css/red_styles.css?' + Math.random();
@@ -30,7 +31,7 @@
                <?php /* <a class="item" href="/gina/">
 
                     <figure>
-                        <img src="/red_images/gina_project.jpg" alt="Miscelánea compra todo lo que quieras">
+                        <img src="/red_images/gina_project.jpg" alt="MiscelÃ¡nea compra todo lo que quieras">
                     </figure>
                     <h1>Gina</h1>
                 </a> */ 
@@ -38,20 +39,20 @@
                 
                 <a class="item" href="/pitchfork_games/">
                     <figure>
-                        <img src="/red_images/galeano_project.jpg" alt="Videojuegos compra todo lo que quieras">
+                        <img src="/pitchfork_games/pg_images/logo300px.png" alt="Videojuegos compra todo lo que quieras">
                     </figure>
                     <h1>PITCHFORK GAMES</h1>
                 </a>
 
                 <a class="item" href="/aesclothes/">
                     <figure>
-                        <img src="/red_images/angel_project.jpg" alt="Ropa compra todo lo que quieras">
+                        <img src="/red_images/aesclothes_icon.png" alt="Ropa compra todo lo que quieras">
                     </figure>
                     <h1>AESCLOTHES</h1>
                 </a>
                 <a class="item" href="/master_finance/">
                     <figure>
-                        <img src="/red_images/andres_project.jpg" alt="Finanzas pa todo el mundo">
+                        <img src="/master_finance/images/logoportada.jpg" alt="Finanzas pa todo el mundo">
                     </figure>
                     <h1>MASTER FINANCE</h1>
                 </a>

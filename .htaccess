@@ -1,0 +1,26 @@
+RewriteEngine on
+
+#EVITAR LISTADO DE DIRECTIRIOS
+Options -Indexes
+
+# CODIFICACION .GZIP
+
+<FilesMatch "\.(js|css|ico|pdf|jpg|jpeg|png|gif|php)$">
+SetOutputFilter DEFLATE
+</FilesMatch>
+
+# ERROR 404
+ErrorDocument 400 /404
+ErrorDocument 401 /404
+ErrorDocument 403 /404
+ErrorDocument 404 /404
+ErrorDocument 500 /404
+ErrorDocument 500 /404
+
+# REGLA ERROR 404
+RewriteRule ^404$ /index.php  [L]
+
+
+# HTID:15006926: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:15006926:
