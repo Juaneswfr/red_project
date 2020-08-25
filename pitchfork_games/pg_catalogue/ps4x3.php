@@ -16,7 +16,8 @@
     document.write('<link href="' + estilosjuanes + '" rel="stylesheet">');
     document.write('<link href="' + estilos + '" rel="stylesheet">');
     </script>
-    <title>Producto</title>
+    <title>Ps4 juegos x3</title>
+    <link rel="icon" href="../pg_images/mando.ico">
 </head>
 <body>
     <main>
@@ -26,12 +27,12 @@
             <img src="../pg_images/pg_logo_header.png" alt="logo">
         </div>
         <nav>
-            <a href="index.php">Inicio</a>
+            <a href="/pitchfork_games/index.php">Inicio</a>
             <div class="link_submenu">
                 <a href="#">Productos</a>
                 <li class="submenu">
                     <ul>
-                        <li><a href="./pg_catalogue/ps4x3.php">Consolas</a></li>       
+                        <li><a href="listproducts.php">Consolas</a></li>       
                         <li><a href="#">Juegos</a></li>       
                         <li><a href="#">Accesorios y perifericos</a></li>       
                         <li><a href="#">Sillas</a></li>
@@ -86,7 +87,7 @@
              </div>
          </div>
          <div class="copyright">
-             <p>Gafas source</p>
+             <p>pitchfork games 2020</p>
          </div>
      </section>
  </footer>

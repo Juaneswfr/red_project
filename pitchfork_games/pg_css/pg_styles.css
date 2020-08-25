@@ -1,8 +1,13 @@
+    /*estilos generales*/
 :root {--galeano_tone_1:#22BD84; --galeano_tone_2:#2E8867; --galeano_tone_3:#14704E; --galeano_tone_4:#0b4d37;}
-
 body{background: #fff;}
+*{font-family: "regular";}
+h1,h2,h3,h4,h5,h6{font-family: "bold"; letter-spacing: 5px; text-transform: uppercase;}
 
-@font-face {font-family: "planets"; src: url("/red_font/Planets.otf");}
+/*fuentes*/
+@font-face {font-family: "bold"; src: url("/pitchfork_games/pg_fonts/FjallaOne-Regular.ttf");}
+@font-face {font-family: "light"; src: url("/pitchfork_games/pg_fonts/Recursive-Light-CASL=0-CRSV=0-MONO=1-slnt=0.ttf");}
+@font-face {font-family: "regular"; src: url("/pitchfork_games/pg_fonts/Quicksand-Regular.ttf");}
 
 /*banner*/
 #banner {max-width: none; height: 450px;}
@@ -16,22 +21,26 @@ body{background: #fff;}
 #wrap_img_promo article p {padding: 0px 0px 45px 0px;}
 #wrap_img_promo .button_content_star {padding: 10px 40px; margin: 15px; border: 2px solid #fff; border-radius: 20px; font-weight: bold; display: inline-block;}
 #wrap_img_promo .button_content_star:hover {background-color: white; border-radius: 20px; color: black;} 
+#wrap_img_promo .promo {color:#fff; position: absolute;z-index: 1;width: 100%;top: 0;height: 100%;}
+#wrap_img_promo .promo .red_content {display: flex; align-items: center; justify-content: flex-end; height: 100%;}
+#wrap_img_promo .promo .red_content article { max-width: 450px; padding: 30px;}
 
 /*grupo de imagenes*/ 
-#main_content_home {display: flex; }
+#main_content_home {display: flex; max-height: 1200px;}
 #main_content_left {width: 50%; margin: 0;}
 #main_content_right {width: 50%; margin: 0;}
-#main_content_right .up img {width: 749.44px; height: 762px;}
+#main_content_right .up img {object-fit: cover; height: 956px;}
 #main_content_left .up h2 {padding: 2px; margin: 5px 1px 5px 5px;}
 #main_content_left .up p {padding: 2px; margin-top: 2px;}
-#main_content_home .down {display: flex;} 
+#main_content_home .down {display: flex; height: 243px;} 
 #main_content_home .down figure {width: 50%;}
-#main_content_home .down article {width: 50%; padding: 15px; background-color: var(--galeano_tone_1);}
+#main_content_home .down figure img {height: 100%; object-fit: cover;}
+#main_content_home .down article {width: 50%; padding: 15px; background-color: var(--galeano_tone_1); height: auto; display: flex; flex-direction: column;}
 #main_content_home .down h3 {padding: 2px; margin: 5px 1px 5px 5px;}
 #main_content_home .down p {padding: 2px; margin-top: 2px;}
 #main_content_home #main_content_right .down {flex-direction: row-reverse;}  
-.button_content_home_one {padding: 10px 40px; margin: 15px; border: 2px solid #fff; border-radius: 20px; font-weight: bold; display: inline-block;}
-.button_content_home_one:hover {background-color: #b15050; border-radius: 20px #000000;}
+.button_content_home_one {padding: 10px 40px; margin: 10px 54px; border: 2px solid #fff; border-radius: 20px; font-weight: bold; display: inline-block; margin-block-start: auto !important;}
+.button_content_home_one:hover {background-color: #000000; border-radius: 20px #000000;}
 .button_content_home_two:hover {background-color: #fff; border-radius: 20px #000000; color: #000000;}
 .button_content_home_two {padding: 10px 40px; margin: 15px; border: 2px solid #fff; border-radius: 20px; font-weight: bold; display: inline-block;}
 #main_content_right .up .img_gradient {position: absolute; top: 0; width: 100%; height: 100%; z-index: 1; background: linear-gradient(0deg, black 25%, transparent);}
@@ -40,6 +49,7 @@ body{background: #fff;}
 #main_content_right .up {position: relative;}
 #main_content_left .up .img_gradient {position: absolute; top: 0; width: 100%; height: 100%; z-index: 1; background: linear-gradient(0deg, #000000 25%, transparent);}
 #main_content_left .up figure {position: relative;}
+#main_content_left .up figure img {position: relative; height: 956px;}
 #main_content_left .up article {background: #000000; position: absolute; bottom: 0; z-index: 2; width: 100%;}
 #main_content_left .up {position: relative;}
 #main_content_home .up article {padding: 16px 40px; color: white;}
@@ -61,7 +71,7 @@ body{background: #fff;}
 #one .inner{display: flex;  margin: auto;justify-content: center;}
 #one .feature_left{display: flex;    background-color: #efefef;box-shadow: 1px 4px 6px 3px #0000003d;}
 #one .feature_left .image img{width: 530px;}
-#one .feature_left .button_alt {border: 2px solid #22BD84; border-radius: 20px; font-size: 1.5em; margin: 15px; padding: 10px 40px; font-weight: bold; color: #fff; background-color: #22BD84; display: block; width: max-content;}
+#one .feature_left .button_alt {border: 2px solid #22BD84; border-radius: 20px; font-size: 1.5em; margin: 15px; padding: 10px 40px; color: #fff; background-color: #22BD84; display: block; width: max-content;}
 #one .feature_left p {line-height: 2em;}
 #one div article span {background-size: 50%;}
 #one .content{width: 700px;padding: 20px;}
@@ -79,18 +89,21 @@ header .wrapper .logo {display: flex;}
 header .wrapper .logo div {display: flex;}
 ul, li {list-style: none;}
 header .link_submenu {position: relative;} 
-header .link_submenu:hover .submenu {opacity: 1; z-index: 3;}
-header .link_submenu .submenu {position: absolute; opacity: 0; z-index: -1; transition: .4s all; top: 0; padding: 70px 20px; display: none;}
-header nav a {display:inline-block; color:#fff; text-decoration:none; padding:20px 20px; font-size:13px; font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif; font-weight:bold; -webkit-transition:all 500ms ease; -o-transition:all 500ms ease; transition:all 500ms ease;}
+header .link_submenu:hover .submenu {opacity: 1; height: 100%; overflow: unset;}
+header .link_submenu .submenu {position: absolute; opacity: 0; z-index: -1; transition: .4s all; top: 100%; padding: 0; width: 100%; height: 0; overflow: hidden;}
+header .link_submenu .submenu ul {background: linear-gradient(180deg, black 55%, transparent);}
+header .link_submenu .submenu ul li {padding: 10px; border-bottom: 1px var(--galeano_tone_4) solid; word-break: break-all;}
+header .link_submenu .submenu ul li a {padding: 0;}
+header nav a {display:inline-block; color:#fff; text-decoration:none; padding:20px 20px; font-size:13px; font-weight:bold; -webkit-transition:all 500ms ease; -o-transition:all 500ms ease; transition:all 500ms ease;}
 header nav a:hover {background: var(--galeano_tone_1);}
 
 /*submenu del home*/ 
 #wrap_submenu_home .icons div {display: block;}
 #wrap_submenu_home .icons {text-align: center;  margin: 28px 0 35px;}
 #wrap_submenu_home .icons a {display: inline-block; margin-right: 3.5vw; background-color: transparent;}
-#wrap_submenu_home .icons img {max-width: 90%; vertical-align: middle;}
+#wrap_submenu_home .icons img {max-width: 100%; vertical-align: middle; width: 50px; height: 50px;}
 #wrap_submenu_home .icons a p {font-weight: 600;}
-#wrap_submenu_home .icons p {margin-top: 0; margin-bottom: 0; display: block; margin-block-start: 1em; margin-block-end: 1em; margin-block-start: 0px; margin-block-end: 0px;}
+#wrap_submenu_home .icons p {margin-top: 0; margin-bottom: 0; display: block; margin-block-start: 1em; margin-block-end: 1em; margin-block-start: 0px; margin-block-end: 0px; font-family: "bold"; letter-spacing: 3px; margin-top: 10px; color: var(--galeano_tone_1)}
 
 /*footer*/
 footer{max-width: initial;background-color: #0c110f; background-attachment: fixed;}
@@ -99,12 +112,12 @@ footer{max-width: initial;background-color: #0c110f; background-attachment: fixe
 #wrap_footer #ins {background-image: url(../pg_images/instagram.png); background-size: cover; background-position: center; width: 26px; height: 26px;}   
 #wrap_footer .footer_logos {margin: auto; display: flex; padding-top: 35px; justify-content: center;}
 #wrap_footer .hr {display: flex; height: 2px; background-color: rgb(92, 92, 92); max-width: 1000px; width: 100%; justify-content: center;}
-#wrap_footer div.icons {display: flex; margin: 10px 10px;}
+#wrap_footer div.icons {display: flex; margin: 10px 10px; flex-flow: column; position: relative;}
 #wrap_footer div.icons a {margin: 0 12px;}
 #wrap_footer div.icons a:hover {filter: invert(1);}
 #wrap_footer div.hrs {display: flex; justify-content: center;}
 #wrap_footer div.text h5 {text-align: center; color: rgba(0, 0, 0, 0.856); padding-top: 30px;}
-#wrap_footer div.copyright p {color: whitesmoke; text-align: center; padding: 20px 20px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+#wrap_footer div.copyright p {color: whitesmoke; text-align: center; padding: 20px 20px;}
 
 /*formulario de contacto*/
 #form_contact {max-width: 700px; margin: auto; padding: 25px; color: #22BD84;}
@@ -114,23 +127,48 @@ footer{max-width: initial;background-color: #0c110f; background-attachment: fixe
 #form_contact textarea {border: 2px solid #22BD84; padding: 15px; color: #22BD84;}
 #form_contact textarea::placeholder {color: white;}
 #wrap_footer form div textarea,
-#wrap_footer form div input{width: 100%; border:0; color:white; background-color: #35b38436;     border-radius: 5px;   box-shadow: -3px -1px 9px 4px #00000021; padding: 15px; margin-bottom: 15px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;}
+#wrap_footer form div input{width: 100%; border:0; color:white; background-color: #35b38436; border-radius: 5px;   box-shadow: -3px -1px 9px 4px #00000021; padding: 15px; margin-bottom: 15px;}
 #wrap_footer form div textarea{height: 350px;}
 #wrap_footer form div input[type=submit]{background-color:#22BD84; transition: .5s all;}
 #wrap_footer form div textarea::placeholder,
 #wrap_footer form div input::placeholder{color: white;}
 #wrap_footer .red_content{display: flex;justify-content: space-between;}
-#wrap_footer .red_content input{margin: 0 15px 15px 0; width: 47%;}
+#wrap_footer .red_content input{margin: 0 9px 15px 0; width: 47%;}
 #wrap_contact form div input[type=submit]:hover{background-color:#22BD84;}
 
+/*pagina de contacto*/
+#banner_contact {background-image: url(/pitchfork_games/pg_images/ellie.jpg);}
+#wrap_contact {max-width: none; padding: 100px; display: flex; align-items: center; justify-content: space-between;}
+#wrap_contact form {max-width: 650px; width: 100%; margin: auto;}
+#wrap_contact h1 {color: var(--galeano_tone_1); font-size: 2em; letter-spacing: 3px; text-align: left; border-bottom: 1px solid; margin-bottom: 25px;}
+#wrap_contact form fieldset div {margin-bottom: 20px;}
+#wrap_contact form fieldset div select, #wrap_contact form fieldset div textarea {background: #000000; border: 0; border-radius: 10px; box-shadow: 0px 4px 7px 0px #00000040; padding: 15px 35px !important; width: 100%;}
+#wrap_contact form fieldset div input {background: #000000; border: 0; border-radius: 10px; box-shadow: 0px 4px 7px 0px #00000040; padding: 15px 35px !important; width: 100%;}
+#wrap_contact form fieldset div textarea {height: 150px;}
+#wrap_contact #typ_sol {color: #fff;}
+#wrap_contact #typ_sol option {color: #fff;}
+
+/*página de productos (listproducts.php)*/
+#wrap_list_product {padding: 50px 15px;}
+#wrap_list_product div {margin: 50px auto; padding: 0;}
+#wrap_list_product div h2 {font-size: 1.5em; text-align: center; margin-bottom: 40px;}
+#wrap_list_product .list_product {display: flex; flex-flow: wrap; justify-content: space-around;}
+#wrap_list_product .list_product .image_product {border: 3px solid var(--galeano_tone_2); margin-bottom: 60px; padding: 20px; position: relative;}
+#wrap_list_product .list_product .image_product img {width: 250px; height: 250px; object-fit: contain;}
+#wrap_list_product .list_product .image_product figcaption {padding: 0 30px;}
+#wrap_list_product .list_product .image_product figcaption p {color: var(--galeano_tone_1); margin-top: 10px; max-height: 40px; min-height: 40px; text-align: left; line-height: 1.3em; font-size: 1em;}
+#wrap_list_product .list_product .image_product .price_product {align-items: center; display: flex; margin: 10px 0;}
+#wrap_list_product .list_product .image_product .price_product p {color: grey; margin: 0 0 0 10px; text-decoration: line-through; display: none;}
+#wrap_list_product .list_product .image_product .button_product {padding: 8px 25px; margin: 15px; border: 2px solid #000000; border-radius: 20px; font-weight: bold; display: inline-block;}
+
 /*estilos de producto ps4*/
-#wrap_info_product .content h1 {text-align: center; padding: 25px; text-transform: uppercase; color:#2E8867; font-family:'Times New Roman'; font-size: 20px;}
+#wrap_info_product .content h1 {text-align: center; padding: 25px; text-transform: uppercase; color: var(--galeano_tone_1); font-size: 20px;}
 #wrap_info_product {background-color: #EEE; background-color: #fff; padding: 8em 0 6em 0; position: relative; display: block; max-width: none; font-family:'Times New Roman'; font-size: 12px;}
-#wrap_info_product .product {display: flex;  margin: auto;justify-content: center; font-family:'Times New Roman';font-size: 12px;}
+#wrap_info_product .product {display: flex;  margin: auto;justify-content: center; font-size: 12px;}
 #wrap_info_product .feature_left{display: flex;    background-color: #efefef; box-shadow: 1px 4px 6px 3px #0000003d;}
 #wrap_info_product .feature_left .image img{width: 530px;}
-#wrap_info_product .feature_left .button_alt{ border: 2px solid #22BD84; border-radius: 20px; font-size: 1.5em; margin: 15px; padding: 10px 40px; font-weight: bold; color: #fff; background-color:#22BD84; display: block; width: max-content;}
-#wrap_info_product .feature_left p{line-height: 2em;}
+#wrap_info_product .feature_left .button_alt{ border: 2px solid var(--galeano_tone_1); border-radius: 20px; font-size: 1.5em; margin: 15px; padding: 10px 40px; color: #fff; background-color:#22BD84; display: block; width: max-content;}
+#wrap_info_product .feature_left p{line-height: 1.5em;}
 #wrap_info_product div article span {background-size: 50%;}
 #wrap_info_product .content{width: 700px;padding: 20px;}
 #wrap_info_product .product:first-child{margin-bottom: 60px;}
