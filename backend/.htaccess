@@ -7,8 +7,9 @@
 	############################### V:0.1 ###############################
 	
 		#LOGIN
-		RewriteRule ^login$ /backend/red_module/red_security/red_login.php?option=login
-
+		RewriteRule ^login$ /backend/module/security/login.php?option=login
+		
+		RewriteRule ^send-login$ /backend/component/security/adm_login.php
 
 	#####################################################################
 

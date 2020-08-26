@@ -15,7 +15,7 @@
 </head>
 <body>
 <!--Inicio del FORM------------------------------------------------------------>
-    <form action="" id="form" method="POST">
+    <form action="send-login" id="form" method="POST">
         <div class="form">
             <h1>Iniciar Sesión</h1>
             <?php if(isset($message)) {
@@ -39,12 +39,9 @@
             </div>
             <button id="btn" type="submit" class="button" name="btn_login">Iniciar Sesión</button>
             <a class="button" href="/backend/sign_up.php">Registrarse</a>
-            <!-- <input type="hidden" name="action" value="LV"> -->
+            <input type="hidden" name="action" value="LV">
         </div>
+    
     </form>
-<!--Fin del FORM------------------------------------------------------------>
-    <?php 
-        include_once $_SERVER['DOCUMENT_ROOT'].'/backend/sql/security/login_validate.php'; //Validar si la información está correcta en el login
-    ?>
 </body>
 </html>
