@@ -136,7 +136,7 @@ div.menu-bar{
     width: 40px;
     height: 40px;
     margin: 10px;
-    background-image: url(/backend/red_images/red_icons/menu.png);
+    background-image: url(/backend/images/icons/menu.png);
     background-size: cover;
     cursor: pointer;
 }
@@ -147,7 +147,7 @@ div.menu-bar{
     height: 40px;
     margin-top: 2px;
     margin-right: 10px;
-    background-image: url(/backend/red_images/red_icons/user.png);
+    background-image: url(/backend/images/icons/user.png);
     background-size: cover;
     position: absolute;
     border-radius: 10rem;
@@ -254,7 +254,7 @@ div.menu-bar{
     width: 40px;
     height: 40px;
     margin: 10px;
-    background-image: url(/backend/red_images/red_icons/menu.pn);
+    background-image: url(/backend/images/icons/menu.pn);
     /* png Img de lateral-menu */
     background-size: cover;
     margin-bottom: 40px;
