@@ -32,6 +32,13 @@ if (isset($_POST["btn_login"])) {
             
             setcookie("user_type", $user[6], time()+(10*365*24*60*90));
             
+            setcookie("id", $user[0], time()+(10*365*24*60*90));
+            setcookie("nam", $user[1], time()+(10*365*24*60*90));
+            setcookie("use", $user[2], time()+(10*365*24*60*90));
+            setcookie("ema", $user[3], time()+(10*365*24*60*90));
+            setcookie("pas", $user[4], time()+(10*365*24*60*90));
+            setcookie("dat_sig_up", $user[5], time()+(10*365*24*60*90));
+            
         } else {
             //En caso de que los datos no coincidan
             ?><h3 class="message_php">Ingreso no valido</h3><?php  

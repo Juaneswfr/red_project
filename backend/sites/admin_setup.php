@@ -1,5 +1,6 @@
 <?php 
-    session_start();
+    include_once $_SERVER['DOCUMENT_ROOT'].'/backend/function/session/session_start.php';
+    /* session_start(); */
 
     /* echo '¡Hola ' . htmlspecialchars($_COOKIE["user_type"]) . '!'; */
 
@@ -16,7 +17,8 @@
     
 ?>
 
-<?php include_once $_SERVER['DOCUMENT_ROOT'].'/backend/function/connection/connection.php';?>
+<?php /* include_once $_SERVER['DOCUMENT_ROOT'].'/backend/function/connection/connection.php'; */
+include_once $_SERVER['DOCUMENT_ROOT'].'/backend/sql/security/connection.php';?>
 
 
 

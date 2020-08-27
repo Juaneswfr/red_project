@@ -1,5 +1,7 @@
 <?php 
-    session_start();
+include_once $_SERVER['DOCUMENT_ROOT'].'/backend/function/session/session_start.php';
+    
+    
 
     /* echo '¡Hola ' . htmlspecialchars($_COOKIE["user_type"]) . '!'; */
 
@@ -39,13 +41,13 @@
         </tr>
     </thead>
     <tbody>
-        <?php $query = "SELECT * from datos";
+        <?php $query = "SELECT * from jin_user";
         $result_dates = mysqli_query($conex, $query);
 
         while($row = mysqli_fetch_array($result_dates)){ ?>
         <tr class="table_content">
-            <td ><?php echo $row['jin_name']?>  </td>
-            <td ><?php echo $row['jin_email']?>  </td>
+            <td ><?php echo $row['jin_nam']?>  </td>
+            <td ><?php echo $row['jin_ema']?>  </td>
             <td ><?php echo $row['jin_dat_sig_up']?>  </td>
         </tr>
         <?php   }  ?>

@@ -1,4 +1,4 @@
-<?php /*  include_once $_SERVER['DOCUMENT_ROOT'].'/backend/function/session/session_start.php'; */?>
+<?php  include_once $_SERVER['DOCUMENT_ROOT'].'/backend/function/session/session_start.php'; ?>
 
 
 

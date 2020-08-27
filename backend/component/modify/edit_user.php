@@ -20,7 +20,7 @@
     }
 
     if (isset($_POST['update'])) {
-        $id2 = $_GET['jin_id'];
+        $id2 = $_GET['id'];
         $alter_name= trim($_POST['name']);
         $alter_user= trim($_POST['user']);
         $alter_email= trim($_POST['email']);

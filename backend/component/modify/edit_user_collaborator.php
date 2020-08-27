@@ -1,9 +1,9 @@
 <?php 
-    include_once $_SERVER['DOCUMENT_ROOT'].'/backend/function/connection/connection.php';
+    include_once $_SERVER['DOCUMENT_ROOT'].'/backend/sql/security/connection.php';
 
-    if (isset($_GET['jin_id'])) {
-        $id = $_GET['jin_id'];
-        $query = "SELECT * FROM 'jin_user' WHERE id = $id";
+    if (isset($_GET['id'])) {
+        $id = $_GET['id'];
+        $query = "SELECT * FROM jin_user WHERE jin_id = $id";
         $result= mysqli_query($conex,$query);
        
 
@@ -20,7 +20,7 @@
     }
 
     if (isset($_POST['update'])) {
-        $id2 = $_GET['jin_id'];
+        $id2 = $_GET['id'];
         $alter_name= trim($_POST['name']);
         $alter_user= trim($_POST['usee']);
         $alter_email= trim($_POST['email']);
@@ -44,7 +44,7 @@
 <?php include_once $_SERVER['DOCUMENT_ROOT'].'/backend/component/includes/header.php';?>
 
 <div class="content shadow box box_register">
-<form id="form" action="edit_user_collaborator.php?id=<?php echo $_GET['jin_id']; ?>" method="post">
+<form id="form" action="edit_user_collaborator.php?id=<?php echo $_GET['id']; ?>" method="post">
         <div class="form">
             <h1>Modificar usuario</h1>
             <div class="right">
@@ -81,7 +81,7 @@
         </tr>
     </thead>
     <tbody>
-        <?php $query = "SELECT * from 'jin_user'";
+        <?php $query = "SELECT * from jin_user";
         $result_dates = mysqli_query($conex, $query);
 
         while($row = mysqli_fetch_array($result_dates)){ ?>
@@ -99,6 +99,7 @@
         </tr>
         <?php   }  ?>
     </tbody>
+    
     </table>
 </div>
 

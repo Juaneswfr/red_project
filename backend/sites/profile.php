@@ -1,3 +1,5 @@
+<?php include_once $_SERVER['DOCUMENT_ROOT'].'/backend/function/session/session_start.php';
+    ?>
 <!DOCTYPE html>
 <html lang="en">
 <?php include_once $_SERVER['DOCUMENT_ROOT'].'/backend/component/includes/header.php';?>

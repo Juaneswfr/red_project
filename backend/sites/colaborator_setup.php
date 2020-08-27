@@ -1,5 +1,7 @@
 <?php 
-    session_start();
+include_once $_SERVER['DOCUMENT_ROOT'].'/backend/function/session/session_start.php';
+    
+    
 
     /* echo '¡Hola ' . htmlspecialchars($_COOKIE["user_type"]) . '!'; */
 
@@ -16,7 +18,8 @@
 
     
 ?>
-
+<?php /* include_once $_SERVER['DOCUMENT_ROOT'].'/backend/function/connection/connection.php'; */
+include_once $_SERVER['DOCUMENT_ROOT'].'/backend/sql/security/connection.php';?>
 <?php include_once $_SERVER['DOCUMENT_ROOT'].'/backend/component/includes/header.php';?>
 <head>
     <title>Colaborador</title>
@@ -64,20 +67,20 @@
         </tr>
     </thead>
     <tbody>
-        <?php $query = "SELECT * from datos";
+        <?php $query = "SELECT * from jin_user";
         $result_dates = mysqli_query($conex, $query);
 
         while($row = mysqli_fetch_array($result_dates)){ ?>
         <tr class="table_content">
             <td ><?php echo $row['jin_id']?>  </td>
-            <td ><?php echo $row['jinnam']?>  </td>
+            <td ><?php echo $row['jin_nam']?>  </td>
             <td ><?php echo $row['jin_use']?>  </td>
             <td ><?php echo $row['jin_ema']?>  </td>
             <td ><?php echo $row['jin_dat_sig_up']?>  </td>
             <td class="actions_buttons">
                 <a href="/backend/component/modify/edit_user_collaborator.php?id=<?php echo $row['jin_id'] ?>">
                 <i class="fas fa-marker button_actions button_action_edit"></i>
-                </a> 
+                </a>
             </td>
         </tr>
         <?php   }  ?>
