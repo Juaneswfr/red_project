@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{SCRIPT_FILENAME} !-d
+	RewriteCond %{SCRIPT_FILENAME} !-f
+	
+	 
+	############################### V:0.1 ###############################
+	
+		#LOGIN
+		RewriteRule ^login$ /backend/module/security/login.php?option=login
+		
+		RewriteRule ^send-login$ /backend/component/security/adm_login.php
+
+	#####################################################################
+
+</IfModule>

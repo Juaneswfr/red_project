@@ -115,7 +115,7 @@
             <article>
                 <h3>Nuevos accesorios</h3>
                 <p>Actualiza tus herramientas con nuestra gama de accesorios</p>
-                <a href="#" class="button_content_home_one">Ver accesorios</a>
+                <a href="./pg_catalogue/productaccesorios.php" class="button_content_home_one">Ver accesorios</a>
             </article>
         </div>
     </section>
@@ -224,21 +224,33 @@
                 </div>    
             </form>
         </div--> 
-        <div class="hrs">
+        <!--div class="hrs">
              <hr class="hr">
-         </div>    
-         <div class="footer_content">
-             <div class="footer_logos">
+         </div-->    
+        <section class="footer_content">
+            <div class="wrap_footer_left">
+                <div class="newsletter">
+                    <h3>suscribete a nuestro newsletter</h3>
+                    <form>
+                        <div class="column_form_footer">
+                            <input type="text" name="email" id="email_neesletter" placeholder="ejemplo@gmail.com">
+                        </div>
+                        <div class="button_form_footer">
+                            <input type="submit" name="" id="" value="ENVIAR">
+                        </div>
+                    </form>
+                </div>
+            <div class="footer_logos">
                  <div class="icons">
                      <a href="https://www.facebook.com/" id="fac" target="blank"></a>
                      <a href="https://www.twitter.com/" id="twi" target="blank"></a>
                      <a href="https://www.instagram.com/" id="ins" target="blank"></a>
                  </div>
-             </div>
+            </div>
          </div>
          <div class="copyright">
              <p>pitchfork games 2020</p>
-         </div>
+        </section>
      </section>
  </footer>
 </html>

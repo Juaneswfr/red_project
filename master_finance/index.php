@@ -42,11 +42,74 @@
         </div>
     </header> 
     <section id="wrap_banner">
-        <div class="banner_content">
+        <figure class="banner_content">
             <img src="./images/banner.webp">
-        </div>
-
+        </figure>
+            <div class="servicios">
+                <div class="red_content">
+                    <article class="info">
+                        <h1>Bienvenidos a Master Finance</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore aspernatur quae rem eius dicta architecto corporis delectus non atque illo.</p>
+                        <a href="#">Nuestros Servicios</a>
+                    </article>
+                </div>
+            </div>
     </section>
-
+    <section id="content">
+            <section id="history_counters">
+                <div class="up">
+                    <figure>
+                        <img src="/master_finance/images/nomina.png" alt="payroll_accountant">
+                    </figure>
+                    <article>
+                        <h2>CONTADOR NOMINA</h2>
+                        <p>Maneja la nomina de tu empresa de manera mas sencilla</p>
+                        <a href="#" class="bottom_payroll">Ver mas</a>
+                    </article>
+                </div>
+                <div class="medium">
+                    <figure>
+                        <img src="/master_finance/images/costos.jpg" alt="cost_accountant">
+                    </figure>
+                    <article>
+                        <h2>CONTADOR EN COSTOS</h2>
+                        <p>Maneja tu mercancia y controla tu inventario de la mejor manera</p>
+                        <a href="#" class="bottom_cost">Ver mas</a>
+                    </article>
+                </div>
+                <div class="down">
+                    <figure>
+                        <img src="/master_finance/images/presupuesto.jpg" alt="budget_counter">
+                    </figure>
+                    <article>
+                        <h2>CONTADOR EN PRESUPUESTO</h2>
+                        <p>Ten la mejor experiencia y apoyo de un profesional en el presupuesto para crecer tu negocio</p>
+                        <a href="#" class="bottom_budget">Ver mas</a>
+                    </article>
+                </div>
+            </section>
+    <footer>
+        <section class="footer" id="wrap_footer">
+            <div class="red_content">
+                <form action="/master_finance/datos.php" id="form_contact" method="POST">
+                <input type="text" name="username" id="username" placeholder="correo electronico">
+                <input type="text" name="name" id="name" placeholder="Nombre">
+                <input type="text" name="lastname" id="lastname" placeholder="Apellido">
+                <input type="text" name="phone" id="phone" placeholder="Telefono">
+                <div>
+                    <textarea id="mensaje" name="mensaje" placeholder="indroduzca su mensaje..."></textarea>
+                    <hr>
+                </div>
+                <div>
+                    <input type="submit" name=""id="" value="ENVIAR"> 
+                    </div>
+                </form>
+            </div>
+            <div class="hrs">
+                <hr class="hr">
+            </div>
+            <div class="copyright">
+                <p>Master Finance Corp</p>
+            </div> 
 </body>
 </html>

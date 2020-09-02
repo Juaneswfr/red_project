@@ -39,7 +39,7 @@
                     </ul>           
                 </li>
             </div>    
-            <a href="#wrap_footer">Contactanos</a>
+            <a href="/pitchfork_games/contact.php">Contactanos</a>
         </nav>
     </div>
  </header>
@@ -47,16 +47,16 @@
 <div class="red_content">
     <h2>SILLAS DISPONIBLES</h2>
     <div class="list_product">
-        <!--figure class="image_product"> <estas imagaenes deben ser 800x800>
+        <figure class="image_product"> <estas imagaenes deben ser 800x800>
             <a href="#">
-            <img src="../pg_images/" alt="">
+            <img src="../pg_images/Formula Series Conventional Mesh and PU Leather FD101.jpg" alt="Formula series">
             <figcaption>
             <p>
-                <b></b>
+                <b> DXRacing Formula Series<br>Conventional</b>
             </p>
             <div class="price_product">
-                <h2>$0</h2>
-                <p>$0</p>
+                <h2>$1.200.000</h2>
+                <p>$980.000</p>
             </div>
             <div class="button_product">
                 <a href="#">VER DETALLES</a>
@@ -66,13 +66,13 @@
         </figure>
         <figure class="image_product">
             <a href="#">
-            <img src="../pg_images/" alt="">
+            <img src="../pg_images/Racing Series PRO Vinyl and PU Leather RV131.jpg" alt="Racing series pro">
             <figcaption>
             <p>
-                <b></b>
+                <b>DXRacing Racing<br>Series PRO</b>
             </p>
             <div class="price_product">
-                <h2>$0</h2>
+                <h2>$1.500.000</h2>
                 <p>$0</p>
             </div>
             <div class="button_product">
@@ -81,7 +81,7 @@
             </figcaption>
             </a>
         </figure>
-        <figure class="image_product">
+        <!--figure class="image_product">
             <a href="ps4x3.php">
             <img src="../pg_images/" alt="">
             <figcaption>
@@ -165,10 +165,10 @@
             </div>
             </figcaption>
             </a>
-        </figure-->
+        </figure>
         <figure class="image_product">
             <a href="#">
-            <img src="../pg_images/chair.jpg" alt="proximamente">
+            <img src="../pg_images/" alt="proximamente">
             <figcaption>
             <p>
                 <b>proximamente</b>
@@ -182,8 +182,8 @@
             </div>
             </figcaption>
             </a>
-        </figure>
-    </div-->
+        </figure-->
+    </div>
 </div>
 </section>
 </body>

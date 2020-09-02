@@ -5,15 +5,73 @@
   --mf_tone_4:#638EC2;
   --mf_tone_5:#0E2542;
 }
+
+/*fonts*/
+*{font-family: "bitter_par2";}
+h1,h2,h3,h4,h5,h6{
+  font-family: "parrafo_1";
+}
+@font-face {
+  font-family: "titulos"; src: url("/master_finance/fonts/Arimo-Bold.ttf");
+}
+@font-face {
+  font-family: "parrafo_1"; src: url("/master_finance/fonts/Arimo-Italic.ttf");
+}
+@font-face {
+  font-family: "parrafo_2"; src: url("/master_finance/fonts/Arimo-Regular.ttf");
+}
+
+/*header*/
 header{background-color: var(--mf_tone_5);width: 100%;display:flex;}
 header .red_content {display:flex;align-items: center;justify-content: space-between;}
 header .nav_left img{width:100px ; text-align: center;}
 header .nav_right img{width:40px;padding:0px 0px 0px 8px;}
-header .red_content .nav_left a{padding: 10px 10px 10px 10px;color:#d3ebed;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
-header .red_content .nav_left a:hover{background-color:#339c8e;color:#000000;border-radius: 20px;}
+header .red_content .nav_left a{padding: 10px 10px 10px 10px;color:#d3ebed;font-family: "parrafo_1";}
+header .red_content .nav_left a:hover{background-color:#339c8e;color:#000000;border: 1px;}
 header .nav_left{display:flex;align-items:center;}
-#wrap_banner{max-width: none;}
-#wrap_banner .banner_content img{height: 400px;object-fit: cover;background-attachment: fixed;}
+
+/*banner*/
+#wrap_banner{max-width:none;}
+#wrap_banner .banner_content img{height: 630px;object-fit: cover;}
+#wrap_banner .banner_content{justify-content: center;align-items: center;}
+#wrap_banner .servicios{position: absolute;z-index: 1;width: 100%;top: 0;height: 100%}
+#wrap_banner .servicios .red_content{display: flex;align-items: center;justify-content: flex-end;height: 100%;}
+#wrap_banner .servicios .red_content .info{background-color: #ffffffbd;max-width: 450px;padding: 30px;border-radius: 10px;margin-right: 50px;}
+#wrap_banner .info h1 {margin-bottom: 20px;font-size: 2em;color: var(--mf_tone_1);}
+#wrap_banner .info p {font-family: "parrafo_1";color: var(--mf_tone_2);font-size: 1em;margin-bottom: 15px;}
+#wrap_banner .info a {border-radius: 20px;display: block;padding: 10px 25px;color: white;background: var(--mf_tone_1);font-weight: bold;text-align: center;font-family: "parrafo_1";}
 
 
+/*footer*/
+footer{max-width: initial;background-color:var(--mf_tone_5); background-attachment: fixed;}
+#wrap_footer .hr{display:flex; height:2px; background-color: rgb(92, 92, 92); max-width: 1000px; width:100%; justify-content:center;}
+#wrap_footer div.hrs{display: flex; justify-content: center;}
+#wrap_footer div.text h5{text-align:center; color: rgb(250, 252, 252,); padding-top: 30px;}
+#wrap_footer div.copyright p{color:whitesmoke; text-align:center; padding: 20px 20px;font-family: "parrafo_1";}
+
+/*formulario de contacto*/
+#form_contact{max-width: 700px; margin:auto; padding:25px; color:var(--mf_tone_4);}
+#form_contact input{padding: 15px; color:white; border-bottom: 1px solid var(--mf_tone_4);}
+#form_contact input::placeholder{color:white;}
+#wrap_footer form div textarea,
+#wrap_footer form div input{width:100%; border:0; color:white; background-color: var(--mf_tone_5);border-radius: 5px;padding: 15px;margin-bottom: 15px;font-family: "parrafo_1";}
+#wrap_footer form div textarea{height:350px;background-color: white;color:#000000;}
+#wrap_footer form div input[type=submit]{background-color: #4fe04a; transition: .5s all;}
+#wrap_footer form div textarea::placeholder,
+#wrap_footer form div input::placeholder{color:white;}
+#wrap_footer .red_content{display:flex;justify-content: space-between;}
+#wrap_footer .red_content input{margin:0 15px 15px 0; width:47%;}
+#wrap_contact form div input[type=submit]:hover{background-color: #4fe04a;}
+
+/*contenido de la pagina*/
+#content{background-color: #2c5383;}
+#content .up{padding: 20px;margin-top: 2px;}
+#content .medium{padding:20px;margin-top: 2px;}
+#content .down{padding:20px;margin-top: 2px;}
+#content .bottom_payroll{padding:10px 40px;margin:15px;border:2px solid #fff;border-radius: 20px;font-weight: bold;}
+#content .bottom_cost{padding:10px 40px;margin:15px;border:2px solid #fff;border-radius: 20px;font-weight: bold;}
+#content .bottom_budget{padding:10px 40px;margin:15px;border:2px solid #fff;border-radius: 20px;font-weight: bold;}
+#content .up img{height: 250px;width: 250px;}
+#content .medium img{height: 250px;width: 250px;}
+#content .down img{height: 250px;width: 250px;}
  

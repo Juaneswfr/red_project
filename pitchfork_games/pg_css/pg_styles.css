@@ -107,18 +107,23 @@ header nav a:hover {background: var(--galeano_tone_1);}
 
 /*footer*/
 footer{max-width: initial;background-color: #0c110f; background-attachment: fixed;}
-#wrap_footer #fac {background-image: url(../pg_images/facebook.png); background-size: cover; background-position: center; width: 26px; height: 26px;}
-#wrap_footer #twi {background-image: url(../pg_images/twitter.png); background-size: cover; background-position: center; width: 26px; height: 26px;} 
-#wrap_footer #ins {background-image: url(../pg_images/instagram.png); background-size: cover; background-position: center; width: 26px; height: 26px;}   
-#wrap_footer .footer_logos {margin: auto; display: flex; padding-top: 35px; justify-content: center;}
+#wrap_footer #fac {background-image: url(../pg_images/facebook.png); background-size: cover; background-position: center; width: 50px; height: 50px;}
+#wrap_footer #twi {background-image: url(../pg_images/twitter.png); background-size: cover; background-position: center; width: 50px; height: 50px;} 
+#wrap_footer #ins {background-image: url(../pg_images/instagram.png); background-size: cover; background-position: center; width: 50px; height: 50px;}   
+#wrap_footer .footer_logos {margin: auto; display: inline-flex; max-width: 200px;}
 #wrap_footer .hr {display: flex; height: 2px; background-color: rgb(92, 92, 92); max-width: 1000px; width: 100%; justify-content: center;}
-#wrap_footer div.icons {display: flex; margin: 10px 10px; flex-flow: column; position: relative;}
+#wrap_footer div.icons {display: flex; margin: 10px 10px; max-width: 100%;} 
 #wrap_footer div.icons a {margin: 0 12px;}
 #wrap_footer div.icons a:hover {filter: invert(1);}
 #wrap_footer div.hrs {display: flex; justify-content: center;}
 #wrap_footer div.text h5 {text-align: center; color: rgba(0, 0, 0, 0.856); padding-top: 30px;}
 #wrap_footer div.copyright p {color: whitesmoke; text-align: center; padding: 20px 20px;}
 
+/*newsletter*/
+#wrap_footer .wrap_footer_left {display: flex; position: relative;}
+#wrap_footer .wrap_footer_left .newsletter {max-width: 530px; padding: 50px 50px; position: relative; margin-left: 80px;}
+#wrap_footer .wrap_footer_left .newsletter h3 {padding-bottom: 20px; color: #fff;}
+ 
 /*formulario de contacto*/
 #form_contact {max-width: 700px; margin: auto; padding: 25px; color: #22BD84;}
 #form_contact input {padding: 15px; color: white; border-bottom: 1px solid #22BD84;}
@@ -147,6 +152,8 @@ footer{max-width: initial;background-color: #0c110f; background-attachment: fixe
 #wrap_contact form fieldset div textarea {height: 150px;}
 #wrap_contact #typ_sol {color: #fff;}
 #wrap_contact #typ_sol option {color: #fff;}
+
+
 
 /*página de productos (listproducts.php)*/
 #wrap_list_product {padding: 50px 15px;}

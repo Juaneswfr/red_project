@@ -50,12 +50,12 @@
                 <fieldset>
                 <h1>Contáctanos</h1>
                 <div>
-                <select name="typ_sol" id="typ_sol" class="valid">
+                <!--select name="typ_sol" id="typ_sol" class="valid">
                 <option value="0">Selecciona tú solicitud</option>
                 <option value="1">Petición</option>
                 <option value="2">Queja</option>
                 <option value="3">Sugerencia</option>
-                </select>
+                </select-->
                 </div>
                 <div>
                 <input type="text" name="name_contact" id="name_contact" placeholder="Nombre">
@@ -65,6 +65,9 @@
                 </div>
                 <div>
                 <textarea name="message_contact" id="message_contact" placeholder="escriba aqui su comentario..."></textarea>
+                </div>
+                <div>
+                <input type="submit" name="" id="" value="ENVIAR">
                 </div>
                 </fieldset>
             </form>

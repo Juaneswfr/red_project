@@ -56,6 +56,18 @@
                     </figure>
                     <h1>MASTER FINANCE</h1>
                 </a>
+                <a class="item" href="/tecnoar/">
+                    <figure>
+                        <img src="https://www.avantel.co/blog/wp-content/uploads/2019/07/14.Los-accesorios-para-celulares-ma%E2%95%A0%C3%BCs-y-menos-u%E2%95%A0%C3%BCtiles.jpg" alt="Ropa compra todo lo que quieras">
+                    </figure>
+                    <h1>TECNOAR</h1>
+                </a>
+                <a class="item" href="/jumping_cupcakes/">
+                    <figure>
+                        <img src="https://pbs.twimg.com/media/EMkIOykXsAUbcvj.jpg" alt="Finanzas pa todo el mundo">
+                    </figure>
+                    <h1>JUMPING CUPCAKES</h1>
+                </a>
 
 
             </section>

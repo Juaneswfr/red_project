@@ -39,7 +39,7 @@
                     </ul>           
                 </li>
             </div>    
-            <a href="#wrap_footer">Contactanos</a>
+            <a href="/pitchfork_games/contact.php">Contactanos</a>
         </nav>
     </div>
  </header>

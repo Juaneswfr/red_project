@@ -39,7 +39,7 @@
                     </ul>           
                 </li>
             </div>    
-            <a href="#wrap_footer">Contactanos</a>
+            <a href="/pitchfork_games/contact.php">Contactanos</a>
         </nav>
     </div>
  </header>
@@ -66,13 +66,13 @@
         </figure>
         <figure class="image_product">
             <a href="#">
-            <img src="../pg_images/" alt="bo4-xone">
+            <img src="../pg_images/daysgone-ps.png" alt="days gone">
             <figcaption>
             <p>
-                <b>COD black ops 4-xbox one</b>
+                <b>Days gone-ps4</b>
             </p>
             <div class="price_product">
-                <h2>$109.000</h2>
+                <h2>$199.900</h2>
                 <p>$0</p>
             </div>
             <div class="button_product">
@@ -82,14 +82,14 @@
             </a>
         </figure>
         <figure class="image_product">
-            <a href="ps4x3.php">
-            <img src="../pg_images/" alt="">
+            <a href="#">
+            <img src="../pg_images/horizon-ps.png" alt="horizon zero dawn">
             <figcaption>
             <p>
-                <b></b>
+                <b>Horizon zero dawn <br>complete edition-ps4</b>
             </p>
             <div class="price_product">
-                <h2>$0</h2>
+                <h2>$100.000</h2>
                 <p>$0</p>
             </div>
             <div class="button_product">
@@ -100,13 +100,13 @@
         </figure>
         <figure class="image_product">
             <a href="#">
-            <img src="../pg_images/" alt="">
+            <img src="../pg_images/jump-xbox.png" alt="jump force">
             <figcaption>
             <p>
-                <b></b>
+                <b>Jump force-xbox one</b>
             </p>
             <div class="price_product">
-                <h2>$0</h2>
+                <h2>$70.000</h2>
                 <p>$0</p>
             </div>
             <div class="button_product">
@@ -117,13 +117,13 @@
         </figure>
         <figure class="image_product">
             <a href="#">
-            <img src="../pg_images/" alt="">
+            <img src="../pg_images/just-xbox.png" alt="just cause">
             <figcaption>
             <p>
-                <b></b>
+                <b>Just cause 4-xbox one</b>
             </p>
             <div class="price_product">
-                <h2>$0</h2>
+                <h2>$110.000</h2>
                 <p>$0</p>
             </div>
             <div class="button_product">
@@ -134,13 +134,13 @@
         </figure>
         <figure class="image_product">
             <a href="#">
-            <img src="../pg_images/" alt="">
+            <img src="../pg_images/mortal-xbox.png" alt="MK11">
             <figcaption>
             <p>
-                <b></b>
+                <b>Mortal kombat 11-xbox one</b>
             </p>
             <div class="price_product">
-                <h2>$0</h2>
+                <h2>$260.000</h2>
                 <p>$0</p>
             </div>
             <div class="button_product">
@@ -151,13 +151,13 @@
         </figure>
         <figure class="image_product">
             <a href="#">
-            <img src="../pg_images/" alt="">
+            <img src="../pg_images/portada-call-xbox.png" alt="COD MW">
             <figcaption>
             <p>
-                <b></b>
+                <b>COD modern warfare<br>xbox one</b>
             </p>
             <div class="price_product">
-                <h2>$0</h2>
+                <h2>$299.000</h2>
                 <p>$0</p>
             </div>
             <div class="button_product">
@@ -166,15 +166,15 @@
             </figcaption>
             </a>
         </figure>
-        <!--figure class="image_product">
+        <figure class="image_product">
             <a href="#">
-            <img src="../pg_images/" alt="proximamente">
+            <img src="../pg_images/wwii-ps.png" alt="COD WWII">
             <figcaption>
             <p>
-                <b>proximamente</b>
+                <b>COD ww2-ps4</b>
             </p>
             <div class="price_product">
-                <h2>$0</h2>
+                <h2>$90.000</h2>
                 <p>$0</p>
             </div>
             <div class="button_product">
