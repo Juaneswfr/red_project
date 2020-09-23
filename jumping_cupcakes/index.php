@@ -4,27 +4,22 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Proyecto 2</title>
-        <link href="/red_css/red_styles.css" rel="stylesheet">
-        <link href="/jumping_cupcakes/css/jumping_cupcakes_styles.css" rel="stylesheet">
-
+        <link href="/css/jumping_cupcakes_styles.css" rel="stylesheet">
+    </head>
     <body>
         <section id="juanes_es_gei">
             <h1>Quien es ese hoooooooommmmbreeeeeeee</h1>
             <h1>Que me mira y me desnudaaaaaa</h1>
             <img src="https://pbs.twimg.com/media/EMkIOykXsAUbcvj.jpg"/>
         </section>
-    
+        <section>
             <h1>Una fiera inquieta que me da mil vueltas</h1>
             <picture>no pude colocar una imagen ._. :/ </h1>
             <p>///////////////////._.//////////////////////</p>
             <iframe height="500" width="500" src="/http://google.com"></iframe>
             <h1>Nuevas Funciones</h1>
         </section>
-
-    </body>
-</html>
-
-<section id="My_baby">
+        <section id="My_baby">
             <h1>Jumping Cupcakes SAS</h1>
             <h1>Una mordidita de la que no te arrepentiras</h1>
             <img src="https://natashaskitchen.com/wp-content/uploads/2020/05/Vanilla-Cupcakes-3.jpg"/>
@@ -35,8 +30,8 @@
             <p>///////////////////._.//////////////////////</p>
         </section>
         <h1>Gafas me da pipi a lo rico desde lejos :v</h1>
-            <h1>Y murgas es un hpta atravesado ahi >:v</h1>
-            <img src="https://st3.depositphotos.com/1006472/15606/i/450/depositphotos_156061970-stock-photo-middle-finger-rude-gesture.jpg"/>
+        <h1>Y murgas es un hpta atravesado ahi >:v</h1>
+        <img src="https://st3.depositphotos.com/1006472/15606/i/450/depositphotos_156061970-stock-photo-middle-finger-rude-gesture.jpg"/>
         </section>
         <section id="jumping_Cupcakes">
             <h1>Deleitando tu paladar</h1>
@@ -44,8 +39,8 @@
             <h1>Space Space</h1>
         </section>
         <h1>CAROLINA ACUÑA R</h1>
-            <h1>Carolina Acuña</h1>
-            <img src="https://lh3.googleusercontent.com/CYRrU-XJHjMPrTMg6LtnsNt8QkYqP6M9O6770hhR2l_MzCgYGs9JDx6zcNMCKbw6PX6e3LfxjBy4FqJGWhR107pI4bB3EXwn50JcQtPsvSkguGgvotGI3n0QwyYow1y3Bv1LHMUzvwim0PzBd-5LcHcLIelikYffs2AumW1F07I_PQBSPmRZUPOCtGhFgfbUj_jblaqqkF5hoCExOOR-wV5clTprMK9pnb0nppbpTGJqnrX0AOupRxapGi01bMIddy05zkDIkMBsEX8OQ3B-TV5BVdmUnyUqUjQgTLcTiGkS_BgLPOLuJ7hJK5jMS49on-QuF-wNwfa2V6q8zZ4OW9x0T9CE6njxHXQVDEA6Tm-wBMVRqQ9BVSzUIsWxoXXovqU8_esWezkCB24q92OFqNoR_cZMfWZu_r1fH7FnwV-mYMRjZk761-XiqchmWrwt_rBo4MYbtIFWdj9EOMf2nhznExOKpO_bGqrjXPRkVw6eBvknicfyjsX9w-nXCl7pRAEb7a5VbTuOYTLXOFkKIvQ19P4lf4X6N69ovDPLYJI-EYchOgCt8Bpgc2DOuewZkChOTk8Tuv3caCeWJ06ARcLYlwx5ZM-3BuFZGM_jkUDNS_uhN7sPsoZY7RfTdfNSSSjIIWCf1YBkC6rfHfx7iHjqA97EPCT6vsrfgKJR1vFCIqnM9s0UKxZQ_ZvrgQ=s625-no?authuser=0"/>
+        <h1>Carolina Acuña</h1>
+        <img src="https://lh3.googleusercontent.com/CYRrU-XJHjMPrTMg6LtnsNt8QkYqP6M9O6770hhR2l_MzCgYGs9JDx6zcNMCKbw6PX6e3LfxjBy4FqJGWhR107pI4bB3EXwn50JcQtPsvSkguGgvotGI3n0QwyYow1y3Bv1LHMUzvwim0PzBd-5LcHcLIelikYffs2AumW1F07I_PQBSPmRZUPOCtGhFgfbUj_jblaqqkF5hoCExOOR-wV5clTprMK9pnb0nppbpTGJqnrX0AOupRxapGi01bMIddy05zkDIkMBsEX8OQ3B-TV5BVdmUnyUqUjQgTLcTiGkS_BgLPOLuJ7hJK5jMS49on-QuF-wNwfa2V6q8zZ4OW9x0T9CE6njxHXQVDEA6Tm-wBMVRqQ9BVSzUIsWxoXXovqU8_esWezkCB24q92OFqNoR_cZMfWZu_r1fH7FnwV-mYMRjZk761-XiqchmWrwt_rBo4MYbtIFWdj9EOMf2nhznExOKpO_bGqrjXPRkVw6eBvknicfyjsX9w-nXCl7pRAEb7a5VbTuOYTLXOFkKIvQ19P4lf4X6N69ovDPLYJI-EYchOgCt8Bpgc2DOuewZkChOTk8Tuv3caCeWJ06ARcLYlwx5ZM-3BuFZGM_jkUDNS_uhN7sPsoZY7RfTdfNSSSjIIWCf1YBkC6rfHfx7iHjqA97EPCT6vsrfgKJR1vFCIqnM9s0UKxZQ_ZvrgQ=s625-no?authuser=0"/>
         </section>
         <section id="toby" >
             <h1>Toby doggy</h1>
@@ -58,4 +53,69 @@
                    <h1> juanes es feliz poniendo pipis a los borrachos JAJAJ:v</h1>
             <p>///////////////////=.=//////////////////////</p>
             <img src=""/>
-            
+        </section> 
+
+        <footer>
+                
+            <section id="wrap_footer">
+                <div class="jumping_content">
+                    <div class="column_1">
+                        <h1>Más información</h1>
+                            <p>Esta tienda esta dedicada a la venta de cupcakes echos en casa con productos artesanales.</p>
+                    </div>        
+                    <div class="column_2">
+                        <h1>Redes sociales</h1>
+                        <a class="row">
+                                <img src="/images/facebook3.png">
+                                <p>Siguenos en Facebook</p>
+                        </a>      
+                        <a class="row">
+                                <img src="/images/twitter3.png">
+                                <p>Siguenos en Twitter</p>
+                        </a>   
+                        <a class="row">
+                                <img src="/images/instagram3.png">
+                                <p>Siguenos en Instagram</p>
+                        </a>   
+                        <a class="row">
+                                <img src="/images/pinterest3.png">
+                                <p>Siguenos en Pinterest</p>
+                        </a>    
+                    </div> 
+                    <div class="column_3">
+                        <h1>Contactanos</h1>
+                    
+                        <a class="row_2">
+                            <img src="/images/casa.jpg">
+                            <p>Calle 118#15-55</p>
+                        </a>
+                        <a class="row_2">
+                            <img src="/images/celular.jpg">
+                            <p>+57-3195474242</p>
+                        </a>
+                        <a class="row_2">
+                            <img src="/images/mensaje.jpg">
+                            <p>Jumping.cupcakes.sas@gmail.com</p>
+                        </a>
+                    </div>
+
+                             
+                </div>      
+            </section>
+            <section id="wrap_copyright">
+                    <div class="jumping_content">
+                        <p class="copyrigth">
+                            © 2020 Todos los Derechos Reservados | 
+                            <a href="">Información Compañia </a> | <a href="">Privación y Politica </a> |
+                            <a href="">Terminos y Condiciones</a>
+                        </p> 
+                    </div>    
+            </section> 
+        </footer>    
+    </body>                        
+</html>
+                            
+    
+
+
+          

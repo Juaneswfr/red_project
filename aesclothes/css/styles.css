@@ -1,3 +1,13 @@
+/*======RESET==========*/
+*,html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,tr,select,input{appearance:inherit; -moz-appearance:inherit; -webkit-appearance:inherit; background:transparent; border:none; border-radius:0; box-sizing: border-box; margin:0; outline:0; padding:0; text-decoration:none;}
+        
+/*========GENERALES=========*/
+section{max-width: 1700px; width: 100%; margin: auto; position: relative;}
+img{width: 100%;}
+main{position: relative;}
+a{text-decoration: none; color: unset;}
+span {color:inherit;}
+
 /*==========Colors===========*/
 :root{
     --angel_tone_1: #491D66;
@@ -14,22 +24,21 @@
     --border_details: rgb(233, 233, 233);
 }
 /*==========Fonts===========*/
-@font-face {font-family: 'normal'; src: url('/aesclothes/aesclothes_fonts/Roboto-Black.ttf');}
-@font-face {font-family: 'bold'; src: url('/aesclothes/aesclothes_fonts/Roboto-Bold.ttf');}
-@font-face {font-family: 'light_italic'; src: url('/aesclothes/aesclothes_fonts/Roboto-LightItalic.ttf');}
-@font-face {font-family: 'light'; src: url('/aesclothes/aesclothes_fonts/Roboto-Light.ttf');}
+
+@font-face {font-family: 'normal'; src: url('/aesclothes_fonts/Roboto-Black.ttf');}
+@font-face {font-family: 'bold'; src: url('/aesclothes_fonts/Roboto-Bold.ttf');}
+@font-face {font-family: 'light_italic'; src: url('/aesclothes_fonts/Roboto-LightItalic.ttf');}
+@font-face {font-family: 'light'; src: url('/aesclothes_fonts/Roboto-Light.ttf');}
+
 /*==========Rules==========*/
-h1{font-family: 'light';}
-h2{font-family: 'light';}
-h3{font-family: 'light';}
-h4{font-family: 'light';}
-h5{font-family: 'light';}
-h6{font-family: 'light';}
+
+h1, h2, h3, h4, h5, h6{font-family: 'light';}
 a{font-family: 'bold';}
 p{font-family: 'light';}
+
 /*==========Index===========*/
 
-header#index{width: 100%;overflow: hidden;background-color: black;background-image: url(/aesclothes/images/logos_and_particles/particles_2.png);margin: 0;background-attachment: fixed;background-size: cover; }
+header#index{width: 100%;overflow: hidden;background-color: black;background-image: url(/images/logos_and_particles/particles_2.png);margin: 0;background-attachment: fixed;background-size: cover; }
 header#index .wrapper {width:90%;max-width:1000px; margin:auto; overflow:hidden; }
 header#index .initial { display: flex; justify-content: center;}
 header#index .initial a{ display: flex; justify-content: center;}
@@ -39,9 +48,9 @@ header#index nav { display: flex; justify-content: center; }
 header#index nav a {display:inline-block;color:var(--bc_tone_2);text-decoration:none;padding:10px 20px;font-size:1em;font-weight:bold;letter-spacing: 3px; border-bottom: transparent 1px solid;}
 header#index nav a:hover{transition: .5s;color: var(--angel_tone_3);border-bottom: 1px solid;border-color: var(--angel_tone_3)}
 #wrap_navigator a{padding-left: 11px;color: black;}
-#cloth_banner_1{max-width: none;height: 700px;background-size: cover;background-attachment: fixed;background-image: url(/aesclothes/images/banners/index_banner_1.jpg);  background-position: center; display: flex;}
-#cloth_banner_2{background-image: url(/aesclothes/images/banners/index_banner_5.jpg);max-width: none;height: 700px;background-size: cover;background-attachment: fixed;background-position: bottom;}
-#cloth_banner_3{background-image: url(/aesclothes/images/banners/index_banner_3.jpg);max-width: none;height: 700px;background-size: cover;background-attachment: fixed;background-position-y: -129px;}
+#cloth_banner_1{max-width: none;height: 700px;background-size: cover;background-attachment: fixed;background-image: url(/images/banners/index_banner_1.jpg);  background-position: center; display: flex;}
+#cloth_banner_2{background-image: url(/images/banners/index_banner_5.jpg);max-width: none;height: 700px;background-size: cover;background-attachment: fixed;background-position: bottom;}
+#cloth_banner_3{background-image: url(/images/banners/index_banner_3.jpg);max-width: none;height: 700px;background-size: cover;background-attachment: fixed;background-position-y: -129px;}
 #cloth_banner_1 section.banner_content{max-width: 1700px;}
 #cloth_banner_2 section.banner_content{max-width: 1700px;}
 #cloth_banner_3 section.banner_content{max-width: 1700px;}
@@ -73,7 +82,7 @@ header#index nav a:hover{transition: .5s;color: var(--angel_tone_3);border-botto
 #info_index_body div.best_selling div.best_selling_products .products_list ul li a p.discount{ position: absolute; z-index: 1; align-self: flex-end; color: white; background-color: var(--angel_tone_3); font-family: 'bold'; padding: 10px}
 #info_index_body div.best_selling div.best_selling_products .products_list ul li a img{ width: 250px; object-fit: cover; box-shadow: 0 0 9px 6px #00000017;}
 #info_index_body div.best_selling div.best_selling_products .products_list ul li a img.s{ filter: brightness(1.2);}
-footer#index_footer{max-width: initial; background-color: black; background-image: url(/aesclothes/images/logos_and_particles/particles_2.png);background-attachment: fixed; background-size: contain; background-position: center;}
+footer#index_footer{max-width: initial; background-color: black; background-image: url(/images/logos_and_particles/particles_2.png);background-attachment: fixed; background-size: contain; background-position: center;}
 #index_footer section.footer_content{display: flex;}
 #index_footer section.footer_content  #wrap_contact{ max-width: 50%;}
 #index_footer section.footer_content #wrap_footer{max-width: 50%;display: flex;margin: 0;flex-direction: column;align-items: center;justify-content: center;}
@@ -96,12 +105,12 @@ footer#index_footer{max-width: initial; background-color: black; background-imag
 #products_body{ color: white;}
 #products_  main header .initial a img.content { width:100px;}
 #products_main header{max-width: none;width:100%; overflow:hidden; background:var(--bc_tone_1);margin-bottom:20px;position: fixed;z-index: 9;}
-#products_main .wrapper {width: 100%;overflow: hidden;background-color: var(--bc_tone_1);background-image: url(/aesclothes/images/logos_and_particles/particles_2.png);margin: 0;background-attachment: fixed;    background-size: contain; background-position: top;}
+#products_main .wrapper {width: 100%;overflow: hidden;background-color: var(--bc_tone_1);background-image: url(/images/logos_and_particles/particles_2.png);margin: 0;background-attachment: fixed;    background-size: contain; background-position: top;}
 #products_main header .initial a img{position: relative;left: 43%;width: 150px;}
 #products_main header nav {display: flex;justify-content: center;}
 #products_main header nav a {display:inline-block;color:var(--bc_tone_2);text-decoration:none;padding:10px 20px;font-size:20px;font-weight:bold;}
 #products_main header nav a:hover{transition: .5s;color: var(--angel_tone_3);border-bottom: 1px solid;border-color: var(--angel_tone_3)}
-#sub_header{   max-width: none; width: 100%;overflow: hidden;background-color: var(--bc_tone_1);background-image: url(/aesclothes/images//logos_and_particles/particles_2.png);margin: 0;background-attachment: fixed;    background-size: contain; padding-top: 50px;padding-bottom: 5px; }
+#sub_header{   max-width: none; width: 100%;overflow: hidden;background-color: var(--bc_tone_1);background-image: url(/images//logos_and_particles/particles_2.png);margin: 0;background-attachment: fixed;    background-size: contain; padding-top: 50px;padding-bottom: 5px; }
 #sub_header div{ max-width: 1700px; text-align: center;}
 #sub_header div img{width: 50px; text-align: center;     filter: brightness(0.9);}
 #sub_header div img:hover{ filter: brightness(1);    filter: brightness(2.0);}
@@ -194,7 +203,7 @@ body#converse{ display: flex; flex-direction: column;}
 #classic_converse div.info_desc div.relationed_products .products_list ul{ display: flex; width: 100%; height: 100%; justify-content: center;}
 #classic_converse div.info_desc div.relationed_products .products_list ul li{ list-style: none; display: flex; flex-flow: wrap;}
 #classic_converse div.info_desc div.relationed_products .products_list ul li a{ width: 250px; ;list-style: none; margin: 0 10px; height: fit-content; display: flex; flex-direction: column;}
-#classic_converse div.info_desc div.relationed_products .products_list ul li a:hover{ margin: 0 30px; transition: .7s; transform: scale(1.2);}
+#classic_converse div.info_desc div.relationed_products .products_list ul li a:hover{ margin: 0 30px; transition: all .7s; transform: scale(1.2);}
 #classic_converse div.info_desc div.relationed_products .products_list ul li a p.discount{ position: absolute; z-index: 1; align-self: flex-end; color: white; background-color: var(--angel_tone_3); font-family: 'bold'; padding: 10px}
 #classic_converse div.info_desc div.relationed_products .products_list ul li a img{ width: 250px; object-fit: cover; box-shadow: 0 0 9px 6px #00000017;}
 #classic_converse div.info_desc div.relationed_products .products_list ul li a img.g{ filter: brightness(1.2);}
@@ -203,8 +212,24 @@ body#converse{ display: flex; flex-direction: column;}
 #classic_converse div.info_desc article{padding: 0px 25px;}
 #classic_converse div.info_desc article h6{font-size: 0.9em;}
 
-/*==================================CONTACTO==================================*/
-
+/*==================================CONTACT==================================*/
+body#contact_body { background-image: url(/images/banners/contact_banner.jpg); background-size: cover; max-width: none; max-width: none;}
+#contact_body form.contact_form{ font-family: 'light';display: flex; flex-direction: column; width: 50%; margin: 0px 40px 40px 60px;}
+#contact_body section.first_contact{ display: flex; justify-content: left; display: flex; flex-direction: column;}
+#contact_body section.first_contact div.a{ display: flex; flex-direction: column; margin: 60px 45px 10px 65px; width: 50%;}
+#contact_body section.first_contact div.a h3{ font-family: 'light'; font-size: 3.2em; color: white;}
+#contact_body section.first_contact div.a hr{ border: 1px solid white; width: 100%; height: fit-content;}
+#contact_body form.contact_form input{ width: 100%;border-bottom: 2px solid transparent;padding: 15px; margin: 5px; background-color: var(--angel_tone_2_mod)}
+#contact_body form.contact_form input:valid{ transition: .3s; border-bottom: 2px solid var(--angel_tone_1);}
+#contact_body form.contact_form input::placeholder{ color: black;}
+#contact_body form.contact_form input:focus{ background-color: #9c3cdc; transition: all .3s; color: black;}
+#contact_body form.contact_form textarea{ font-size: 1.3em;color: black;padding: 15px; margin: 5px; background-color: var(--angel_tone_2_mod); width: 100%; height: 200px; max-width: 100%; max-height: 200px; min-width: 100%; min-height: 200px }
+#contact_body form.contact_form textarea::placeholder{ color: black; font-size: .8em; font-family: 'light';}
+#contact_body form.contact_form textarea:focus{ background-color: #9c3cdc; transition: all .3s; color: white; }
+#contact_body form.contact_form button{ width: 100%; padding: 15px; margin: 5px; background-color: transparent; color: white; border: 1px solid white;}
+#contact_body form.contact_form button:hover{ background-color: white; transition: all .3s; color: black;}
+.map{ max-width: none; height: 200px;}
+.map iframe{ height: 300px; width: 100%; margin: 70px 0}
 
 
 /*==============================TESTING CONTACT===============================*/

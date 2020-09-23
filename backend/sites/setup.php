@@ -5,7 +5,7 @@ include_once $_SERVER['DOCUMENT_ROOT'].'/backend/function/session/session_start.
 
     /* echo '¡Hola ' . htmlspecialchars($_COOKIE["user_type"]) . '!'; */
 
-    switch ($_COOKIE["user_type"]) {
+    switch ($_SESSION["use_typ_id"]) {
         case 1:
             header('location: /backend/sites/admin_setup.php');
             
@@ -46,9 +46,9 @@ include_once $_SERVER['DOCUMENT_ROOT'].'/backend/function/session/session_start.
 
         while($row = mysqli_fetch_array($result_dates)){ ?>
         <tr class="table_content">
-            <td ><?php echo $row['jin_nam']?>  </td>
-            <td ><?php echo $row['jin_ema']?>  </td>
-            <td ><?php echo $row['jin_dat_sig_up']?>  </td>
+            <td ><?php echo $row['use_nam']?>  </td>
+            <td ><?php echo $row['use_ema']?>  </td>
+            <td ><?php echo $row['use_log']?>  </td>
         </tr>
         <?php   }  ?>
     </tbody>

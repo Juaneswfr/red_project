@@ -3,7 +3,7 @@
 
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
-    $query = "DELETE FROM jin_user WHERE jin_id = $id";
+    $query = "DELETE FROM jin_user WHERE use_id = $id";
     $result = mysqli_query($conex, $query);
     if (!$result) {
         die("Query Failed");

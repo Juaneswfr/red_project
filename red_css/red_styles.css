@@ -24,7 +24,7 @@ img{width: 100%;}
 main{position: relative;}
 a{text-decoration: none; color: unset;}
 span {color:inherit;}
-.red_content{max-width: 1700px; width: 100%; margin: auto; position: relative;}
+.red_content{max-width: 1400px; width: 100%; margin: auto; position: relative;}
 body.home{background: #0606068a url('/red_images/background.png') ;}
 
 /*========== INICIO ==========*/

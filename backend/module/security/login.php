@@ -1,6 +1,7 @@
-<?php include_once $_SERVER['DOCUMENT_ROOT'].'/backend/function/session/session_started.php';?>
-<?php include_once $_SERVER['DOCUMENT_ROOT'].'/backend/function/session/session_login.php';?>
-
+<?php
+    //Inicio de la sesión
+    session_start();
+?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -41,6 +42,7 @@
             <a class="button" href="/backend/sign_up.php">Registrarse</a>
             <input type="hidden" name="action" value="LV">
         </div>
+        
     
     </form>
 </body>

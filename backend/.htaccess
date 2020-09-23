@@ -1,15 +1,43 @@
+# JBasic V 0.2
+# Creador : Juan Ramirez
+# Ultima actualización - Juan Ramirez
+# 18 Sep 2020 
+
 <IfModule mod_rewrite.c>
 	RewriteEngine On
 	RewriteCond %{SCRIPT_FILENAME} !-d
 	RewriteCond %{SCRIPT_FILENAME} !-f
-	
+
+	# ERROR 404
+	ErrorDocument 400 /404
+	ErrorDocument 401 /404
+	ErrorDocument 403 /404
+	ErrorDocument 404 /404
+	ErrorDocument 500 /404
+	ErrorDocument 500 /404
+
+	# REGLA ERROR 404
+	RewriteRule ^404$ /backend/index.php?option=error
 	 
-	############################### V:0.1 ###############################
+	############################### V:0.2 ###############################
 	
 		#LOGIN
 		RewriteRule ^login$ /backend/module/security/login.php?option=login
 		
 		RewriteRule ^send-login$ /backend/component/security/adm_login.php
+
+		RewriteRule ^dashboard$ /backend/index.php?option=dashboard
+
+
+		# ========================================= #
+		# =============== MODULOS ================= #
+		# ========================================= #
+
+
+		# ========================= USER ========================= #
+
+		RewriteRule ^user$ /backend/index.php?option=user
+
 
 	#####################################################################
 

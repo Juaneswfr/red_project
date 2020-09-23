@@ -7,21 +7,13 @@
     <meta http-equiv="Last-Modified" content="0">
     <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
     <meta http-equiv="Pragma" content="no-cache">
-    <script type="text/javascript">
-        var estilosjuanes = '/red_css/red_styles.css?' + Math.random();
-        var estilos = './css/styles.css?' + Math.random();
-        </script>
-
-        <script type="text/javascript">
-    document.write('<link href="' + estilosjuanes + '" rel="stylesheet">');
-    document.write('<link href="' + estilos + '" rel="stylesheet">');
-    </script>
     <title>Master Finance</title>
+    <link href="/css/styles.css"rel="stylesheet">
 </head>
 <body>
     <main>
     <header>
-        <div class="red_content">
+        <div class="master_content">
             <nav class="nav_left">
             <img src="./images/logoheader.png" alt="logo">
             <a href="#">Inicio</a>
@@ -46,20 +38,20 @@
             <img src="./images/banner.webp">
         </figure>
             <div class="servicios">
-                <div class="red_content">
+                <div class="master_content">
                     <article class="info">
                         <h1>Bienvenidos a Master Finance</h1>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore aspernatur quae rem eius dicta architecto corporis delectus non atque illo.</p>
+                        <p>Busca de la manera mas eficaz, rapida y sencilla posible, como llevar tus finanzas de la mejor manera.</p>
                         <a href="#">Nuestros Servicios</a>
                     </article>
                 </div>
             </div>
     </section>
-    <section id="content">
-            <section id="history_counters">
-                <div class="up">
+    <section id="wrap_services">
+            <div class="master_content">
+                <div class="item">
                     <figure>
-                        <img src="/master_finance/images/nomina.png" alt="payroll_accountant">
+                        <img src="/images/imagen_finanzas1.png" alt="payroll_accountant">
                     </figure>
                     <article>
                         <h2>CONTADOR NOMINA</h2>
@@ -67,9 +59,9 @@
                         <a href="#" class="bottom_payroll">Ver mas</a>
                     </article>
                 </div>
-                <div class="medium">
+                <div class="item">
                     <figure>
-                        <img src="/master_finance/images/costos.jpg" alt="cost_accountant">
+                        <img src="/images/imagen_finanzas2.png" alt="cost_accountant">
                     </figure>
                     <article>
                         <h2>CONTADOR EN COSTOS</h2>
@@ -77,9 +69,9 @@
                         <a href="#" class="bottom_cost">Ver mas</a>
                     </article>
                 </div>
-                <div class="down">
+                <div class="item">
                     <figure>
-                        <img src="/master_finance/images/presupuesto.jpg" alt="budget_counter">
+                        <img src="/images/presupuesto.jpg" alt="budget_counter">
                     </figure>
                     <article>
                         <h2>CONTADOR EN PRESUPUESTO</h2>
@@ -87,11 +79,55 @@
                         <a href="#" class="bottom_budget">Ver mas</a>
                     </article>
                 </div>
-            </section>
+            </div>
+    </section>
+    <section id="wrap_themes">
+        <div class="master_content">
+            <div class="ad">
+                <article class="as_info">
+                    <h2> ERES CONTADOR?</h2>
+                    <div class="description">
+                        <P>Si eres contador y estas buscando trabajo, tenemos diferentes opciones en la cual te puedes desempeñar, solo debes registrarte con nosotros, contactarte con nuestros asesores y esperar la confirmacion para trabajar con nosotros.</p>
+                    </div>
+                    <a href="#"class="bottom_page">Registrate ahora</a>
+                </article>
+            </div>
+            <div class="pictures">
+                <figure class="list">
+                    <img src="/images/anunciospag1.png"alt="ad_img">
+                    <figcaption>
+                        <h2>COSTOS</h2>
+                        <p>aquicdnfjnfieniefeefefajkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkbkfbjsfbkjsbfasbfjbsfkjfbajkbkjsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbsjflnslfnflksdnllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllnaflsnkans</p>
+                    </figcaption>
+                </figure>
+                <figure class="list">
+                    <img src="/images/anunciospag2.jpg"alt="ad_img2">
+                    <figcaption>
+                        <h2>NOMINA</h2>
+                        <p>aquicdnfjnfieniefeefefajkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkbkfbjsfbkjsbfasbfjbsfkjfbajkbkjsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbsjflnslfnflksdnllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllnaflsnkans</p>
+                    </figcaption>
+                </figure>
+                <figure class="list">
+                    <img src="/images/anunciospag3.jpg"alt="ad_img3">
+                    <figcaption>
+                        <h2>PRESUPUESTO</h2>
+                        <p>aquicdnfjnfieniefeefefajkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkbkfbjsfbkjsbfasbfjbsfkjfbajkbkjsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbsjflnslfnflksdnllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllnaflsnkans</p>
+                    </figcaption>
+                </figure>
+                <figure class="list">
+                    <img src="/images/anunciospag4.png"alt="ad_img4">
+                    <figcaption>
+                        <h2>TRIBUTARIA</h2>
+                        <p>aquicdnfjnfieniefeefefajkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkbkfbjsfbkjsbfasbfjbsfkjfbajkbkjsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbsjflnslfnflksdnllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllnaflsnkans</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
     <footer>
         <section class="footer" id="wrap_footer">
-            <div class="red_content">
-                <form action="/master_finance/datos.php" id="form_contact" method="POST">
+            <div class="master_content">
+                <form action="/datos.php" id="form_contact" method="POST">
                 <input type="text" name="username" id="username" placeholder="correo electronico">
                 <input type="text" name="name" id="name" placeholder="Nombre">
                 <input type="text" name="lastname" id="lastname" placeholder="Apellido">

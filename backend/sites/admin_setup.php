@@ -4,16 +4,16 @@
 
     /* echo '¡Hola ' . htmlspecialchars($_COOKIE["user_type"]) . '!'; */
 
-    switch ($_COOKIE["user_type"]) {
-        case 2:
-            header('location: /backend/sites/colaborator_setup.php');
-            break;
-        case 3:
-            header('location: /backend/sites/setup.php');
-            break;
+    // switch ($_SESSION["use_typ_id"]) {
+    //     case 2:
+    //         header('location: /backend/sites/colaborator_setup.php');
+    //         break;
+    //     case 3:
+    //         header('location: /backend/sites/setup.php');
+    //         break;
         
-        default:
-    };
+    //     default:
+    // };
     
 ?>
 
@@ -47,7 +47,7 @@ include_once $_SERVER['DOCUMENT_ROOT'].'/backend/sql/security/connection.php';?>
             <div class="right-bottom">
                 <input type="password" name="confirm_password" id="name" placeholder="Repeat Password"><span class="line"></span>
             </div>
-            <button type="submit" class="button" name="enter" href="/backend/dashboard.php">Registrarse</button>
+            <button type="submit" class="button" name="enter" href="/backend/dashboard.php">Registrar</button>
         </div>
     </form>
     <?php 
@@ -76,18 +76,18 @@ include_once $_SERVER['DOCUMENT_ROOT'].'/backend/sql/security/connection.php';?>
 
         while($row = mysqli_fetch_array($result_dates)){ ?>
         <tr class="table_content">
-            <td ><?php echo $row['jin_id']?>  </td>
-            <td ><?php echo $row['jin_nam']?>  </td>
-            <td ><?php echo $row['jin_use']?>  </td>
-            <td ><?php echo $row['jin_ema']?>  </td>
-            <td ><?php echo $row['jin_pas']?>  </td>
-            <td ><?php echo $row['jin_dat_sig_up']?>  </td>
-            <td ><?php echo $row['jin_use_typ']?>  </td>
+            <td ><?php echo $row['use_id']?>  </td>
+            <td ><?php echo $row['use_nam']?>  </td>
+            <td ><?php echo $row['use_use']?>  </td>
+            <td ><?php echo $row['use_ema']?>  </td>
+            <td ><?php echo $row['use_pas']?>  </td>
+            <td ><?php echo $row['use_log']?>  </td>
+            <td ><?php echo $row['use_typ_id']?>  </td>
             <td class="actions_buttons">
-                <a href="/backend/component/modify/edit_user.php?id=<?php echo $row['jin_id'] ?>">
+                <a href="/backend/component/modify/edit_user.php?id=<?php echo $row['use_id'] ?>">
                 <i class="fas fa-marker button_actions button_action_edit"></i>
                 </a>
-                <a href="/backend/component/modify/delete_user.php?id=<?php echo $row['jin_id'] ?>">
+                <a href="/backend/component/modify/delete_user.php?id=<?php echo $row['use_id'] ?>">
                 <i class="far fa-trash-alt button_actions buttton_action_delete"></i>
                 </a>
             </td>

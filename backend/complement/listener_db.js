@@ -1,3 +1,7 @@
+
+
+$(document).ready(function(){
+
 const menuButton = document.getElementById('div-menu');
 const menu = document.getElementById('menu');
 const menuPrincipal = document.getElementById('logo-principal');
@@ -6,7 +10,9 @@ const submenu_a = document.getElementById('submenu_a');
 const user = document.getElementById('user');
 const user_menu = document.getElementById('user_menu');
 
+const body = $('body');
 
+console.log(body);
 
 menuPrincipal.addEventListener('click', function () {
     menu.classList.toggle('hidden_lateral_menu');
@@ -19,6 +25,7 @@ menuButton.addEventListener('click', function () {
     menu.classList.toggle('hidden_lateral_menu');
     menu.classList.toggle('lateral_menu');
     menu.classList.remove('hidden_all');
+    body.toggleClass('full');
 
 })
 
@@ -34,9 +41,5 @@ user.addEventListener('click', function () {
     
 })
 
-
-
-
-
-
-;
+    
+});

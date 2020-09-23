@@ -5,7 +5,7 @@ include_once $_SERVER['DOCUMENT_ROOT'].'/backend/function/session/session_start.
 
     /* echo '¡Hola ' . htmlspecialchars($_COOKIE["user_type"]) . '!'; */
 
-    switch ($_COOKIE["user_type"]) {
+    switch ($_SESSION["use_typ_id"]) {
         case 1:
             header('location: /backend/sites/admin_setup.php');
             break;
@@ -72,13 +72,13 @@ include_once $_SERVER['DOCUMENT_ROOT'].'/backend/sql/security/connection.php';?>
 
         while($row = mysqli_fetch_array($result_dates)){ ?>
         <tr class="table_content">
-            <td ><?php echo $row['jin_id']?>  </td>
-            <td ><?php echo $row['jin_nam']?>  </td>
-            <td ><?php echo $row['jin_use']?>  </td>
-            <td ><?php echo $row['jin_ema']?>  </td>
-            <td ><?php echo $row['jin_dat_sig_up']?>  </td>
+            <td ><?php echo $row['use_id']?>  </td>
+            <td ><?php echo $row['use_nam']?>  </td>
+            <td ><?php echo $row['use_use']?>  </td>
+            <td ><?php echo $row['use_ema']?>  </td>
+            <td ><?php echo $row['use_log']?>  </td>
             <td class="actions_buttons">
-                <a href="/backend/component/modify/edit_user_collaborator.php?id=<?php echo $row['jin_id'] ?>">
+                <a href="/backend/component/modify/edit_user_collaborator.php?id=<?php echo $row['use_id'] ?>">
                 <i class="fas fa-marker button_actions button_action_edit"></i>
                 </a>
             </td>

@@ -1,8 +1,153 @@
+/*========== ResetCSS ==========*/
+*,html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,tr,select,input{appearance:inherit; -moz-appearance:inherit; -webkit-appearance:inherit; background:transparent; border:none; border-radius:0; box-sizing: border-box; margin:0; outline:0; padding:0; text-decoration:none;}
+
+/*========== CSS GENERALES ==========*/
+section{max-width: 1400px; width: 100%; margin: auto; position: relative;}
+img{width: 100%;}
+main{position: relative;}
+a{text-decoration: none; color: unset;}
+span {color:inherit;}
+.jumping_content{max-width: 1400px; width: 100%; margin: auto; position: relative;}
+
 #juanes_es_gei{background-color:green;}
 #My_baby{background-color:red;}
 #Jumping_Cupcakes{background-color:blue;}
 #jumping_Cupcakes{background-color:yellow;}
 #toby{background-color:pink;}
 #Juanes_se_ve_homosexual_tomando_aguilita{background-color:orange;}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+footer{
+    width: 100%;
+    background: #e6520e;
+    color: white; 
+    padding: 40px;
+
+
+}
+
+.container-footer-all{
+    width:100%;
+    max-width: 1600px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.column_1{
+   max-width: 400px;
+
+}
+
+.column_1 h1{
+    font-size: 22px;
+
+}
+
+.column_1 p{
+    font-size: 14px;
+    color: #c41515;
+    margin-top: 20px;
+
+}
+
+.column_2{
+    max-width: 400px;
+
+}
+
+.column_2 h1{
+    font-size: 22px;
+
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+
+}
+
+.column_3{
+    max-width: 400px;
+
+}
+
+.column_3 h1{
+    font-size: 22px;
+}
+
+.row_2{
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.row_2 img{
+    width: 30px;
+    height: 30px;
+}
+
+.row_2 label{
+    margin-left: 10px;
+    max-width: 20px;
+    margin-top: 140px;
+
+}
+
+.container-footer{
+    width: 100%;
+    background:white;
+    padding: 20px;
+
+}
+
+.footer{
+    max-width: 120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright{
+    color: white
+}
+
+.copyright a{
+    text-decoration: none;
+    color: rgb(84, 209, 26);
+    font-weight: bold;
+    
+}
+
+.information a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
 
 

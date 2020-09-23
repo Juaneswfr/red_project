@@ -1,5 +1,7 @@
 <?php
 session_start();
 unset($_SESSION["admin_name"]);
-header("location:/backend/index.php");
+$_GET['option']='login';
+session_destroy();
+header("location:/backend/login");
 ?>

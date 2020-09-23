@@ -1,20 +1,21 @@
 <?php 
-    include_once $_SERVER['DOCUMENT_ROOT'].'/backend/sql/security/connection.php';
+    session_start();
+    include_once $_SERVER['DOCUMENT_ROOT'].'/backend/function/connection/connection.php';
 
     if (isset($_GET['id'])) {
         $id = $_GET['id'];
-        $query = "SELECT * FROM jin_user WHERE jin_id = $id";
+        $query = "SELECT * FROM jin_user WHERE use_id = $id";
         $result= mysqli_query($conex,$query);
        
 
         if (mysqli_num_rows($result) == 1) {
             $row= mysqli_fetch_array($result);
-            $id= $row['jin_id'];
-            $name= $row['jin_nam'];
-            $user= $row['jin_use'];
-            $email= $row['jin_ema'];
-            $password= $row['jin_pas'];
-            $user_type= $row['jin_use_typ'];
+            $id= $row['use_id'];
+            $name= $row['use_nam'];
+            $user= $row['use_use'];
+            $email= $row['use_ema'];
+            $password= $row['use_pas'];
+            $user_type= $row['use_typ_id'];
         }
 
     }
@@ -27,7 +28,7 @@
         $alter_password= trim($_POST['password']);
         $alter_user_type= trim($_POST['user_type']);
 
-        $query2 = "UPDATE `'jin_user'` SET `jin_nam`='$alter_name',`jin_use`='$alter_user',`jin_ema`='$alter_email' WHERE jin_id=$id2 ";
+        $query2 = "UPDATE `'use_user'` SET `use_nam`='$alter_name',`use_use`='$alter_user',`use_ema`='$alter_email' WHERE use_id=$id2 ";
 
         mysqli_query($conex, $query2);
         header("Location:/backend/sites/admin_setup.php");
@@ -86,13 +87,13 @@
 
         while($row = mysqli_fetch_array($result_dates)){ ?>
         <tr class="table_content">
-            <td ><?php echo $row['jin_id']?>  </td>
-            <td ><?php echo $row['jin_nam']?>  </td>
-            <td ><?php echo $row['jin_use']?>  </td>
-            <td ><?php echo $row['jin_ema']?>  </td>
-            <td ><?php echo $row['jin_dat_sig_up']?>  </td>
+            <td ><?php echo $row['use_id']?>  </td>
+            <td ><?php echo $row['use_nam']?>  </td>
+            <td ><?php echo $row['use_use']?>  </td>
+            <td ><?php echo $row['use_ema']?>  </td>
+            <td ><?php echo $row['use_log']?>  </td>
             <td class="actions_buttons">
-                <a href="/backend/component/modify/edit_user_collaborator.php?id=<?php echo $row['jin_id'] ?>">
+                <a href="/backend/component/modify/edit_user_collaborator.php?id=<?php echo $row['use_id'] ?>">
                 <i class="fas fa-marker button_actions button_action_edit"></i>
                 </a>
             </td>

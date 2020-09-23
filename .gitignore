@@ -9,6 +9,12 @@
 *.jfif
 *.jfi
 
+#CONEXION .VSCODE
+.vscode/
+
+NOT FILES
+galatea/
+backend/function/connection/connection.php
 # JPEG 2000
 *.jp2
 *.j2k

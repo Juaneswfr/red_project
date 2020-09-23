@@ -10,9 +10,9 @@ if (isset($_POST['enter'])) {
 		$password = trim($_POST['password']);
 		$confirmpassword = trim($_POST['confirm_password']);
 		$date_sign_up = date("d/m/y");
-		$consulta = "INSERT INTO jin_user(jin_nam, jin_use, jin_ema, jin_pas, jin_dat_sig_up) VALUES ('$name','$user','$email','$password','$date_sign_up')";
-		$verificar_email = mysqli_query($conex, "SELECT	* FROM jin_user WHERE jin_ema='$email'");
-		$verificar_user= mysqli_query($conex, "SELECT * FROM jin_user WHERE jin_use='$user'");
+		$consulta = "INSERT INTO jin_user(use_nam, use_use, use_ema, use_pas, use_log) VALUES ('$name','$user','$email','$password','$date_sign_up')";
+		$verificar_email = mysqli_query($conex, "SELECT	* FROM jin_user WHERE use_ema='$email'");
+		$verificar_user= mysqli_query($conex, "SELECT * FROM jin_user WHERE use_use='$user'");
 		if (mysqli_num_rows($verificar_email) > 0){
 			?> 
 	    	<h3 class="message_php">El email ya está registrado</h3>

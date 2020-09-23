@@ -5,6 +5,15 @@
   --mf_tone_4:#638EC2;
   --mf_tone_5:#0E2542;
 }
+/*========== ResetCSS ==========*/
+*,html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,tr,select,input{appearance:inherit; -moz-appearance:inherit; -webkit-appearance:inherit; background:transparent; border:none; border-radius:0; box-sizing: border-box; margin:0; outline:0; padding:0; text-decoration:none;}
+/*========== CSS GENERALES ==========*/
+section{max-width: 1400px; width: 100%; margin: auto; position: relative;}
+img{width: 100%;}
+main{position: relative;}
+a{text-decoration: none; color: unset;}
+span {color:inherit;}
+.master_content{max-width: 1400px; width: 100%; margin: auto; position: relative;}
 
 /*fonts*/
 *{font-family: "bitter_par2";}
@@ -12,22 +21,22 @@ h1,h2,h3,h4,h5,h6{
   font-family: "parrafo_1";
 }
 @font-face {
-  font-family: "titulos"; src: url("/master_finance/fonts/Arimo-Bold.ttf");
+  font-family: "titulos"; src: url("/fonts/Arimo-Bold.ttf");
 }
 @font-face {
-  font-family: "parrafo_1"; src: url("/master_finance/fonts/Arimo-Italic.ttf");
+  font-family: "parrafo_1"; src: url("/fonts/Arimo-Italic.ttf");
 }
 @font-face {
-  font-family: "parrafo_2"; src: url("/master_finance/fonts/Arimo-Regular.ttf");
+  font-family: "parrafo_2"; src: url("/fonts/Arimo-Regular.ttf");
 }
 
 /*header*/
 header{background-color: var(--mf_tone_5);width: 100%;display:flex;}
-header .red_content {display:flex;align-items: center;justify-content: space-between;}
+header .master_content {display:flex;align-items: center;justify-content: space-between;}
 header .nav_left img{width:100px ; text-align: center;}
 header .nav_right img{width:40px;padding:0px 0px 0px 8px;}
-header .red_content .nav_left a{padding: 10px 10px 10px 10px;color:#d3ebed;font-family: "parrafo_1";}
-header .red_content .nav_left a:hover{background-color:#339c8e;color:#000000;border: 1px;}
+header .master_content .nav_left a{padding: 10px 10px 10px 10px;color:#d3ebed;font-family: "parrafo_1";}
+header .master_content .nav_left a:hover{background-color:#339c8e;color:#000000;border: 1px;}
 header .nav_left{display:flex;align-items:center;}
 
 /*banner*/
@@ -35,8 +44,8 @@ header .nav_left{display:flex;align-items:center;}
 #wrap_banner .banner_content img{height: 630px;object-fit: cover;}
 #wrap_banner .banner_content{justify-content: center;align-items: center;}
 #wrap_banner .servicios{position: absolute;z-index: 1;width: 100%;top: 0;height: 100%}
-#wrap_banner .servicios .red_content{display: flex;align-items: center;justify-content: flex-end;height: 100%;}
-#wrap_banner .servicios .red_content .info{background-color: #ffffffbd;max-width: 450px;padding: 30px;border-radius: 10px;margin-right: 50px;}
+#wrap_banner .servicios .master_content{display: flex;align-items: center;justify-content: flex-end;height: 100%;}
+#wrap_banner .servicios .master_content .info{background-color: #ffffffbd;max-width: 450px;padding: 30px;border-radius: 10px;margin-right: 50px;}
 #wrap_banner .info h1 {margin-bottom: 20px;font-size: 2em;color: var(--mf_tone_1);}
 #wrap_banner .info p {font-family: "parrafo_1";color: var(--mf_tone_2);font-size: 1em;margin-bottom: 15px;}
 #wrap_banner .info a {border-radius: 20px;display: block;padding: 10px 25px;color: white;background: var(--mf_tone_1);font-weight: bold;text-align: center;font-family: "parrafo_1";}
@@ -59,19 +68,38 @@ footer{max-width: initial;background-color:var(--mf_tone_5); background-attachme
 #wrap_footer form div input[type=submit]{background-color: #4fe04a; transition: .5s all;}
 #wrap_footer form div textarea::placeholder,
 #wrap_footer form div input::placeholder{color:white;}
-#wrap_footer .red_content{display:flex;justify-content: space-between;}
-#wrap_footer .red_content input{margin:0 15px 15px 0; width:47%;}
+#wrap_footer .master_content{display:flex;justify-content: space-between;}
+#wrap_footer .master_content input{margin:0 15px 15px 0; width:47%;}
 #wrap_contact form div input[type=submit]:hover{background-color: #4fe04a;}
 
 /*contenido de la pagina*/
-#content{background-color: #2c5383;}
-#content .up{padding: 20px;margin-top: 2px;}
-#content .medium{padding:20px;margin-top: 2px;}
-#content .down{padding:20px;margin-top: 2px;}
-#content .bottom_payroll{padding:10px 40px;margin:15px;border:2px solid #fff;border-radius: 20px;font-weight: bold;}
-#content .bottom_cost{padding:10px 40px;margin:15px;border:2px solid #fff;border-radius: 20px;font-weight: bold;}
-#content .bottom_budget{padding:10px 40px;margin:15px;border:2px solid #fff;border-radius: 20px;font-weight: bold;}
-#content .up img{height: 250px;width: 250px;}
-#content .medium img{height: 250px;width: 250px;}
-#content .down img{height: 250px;width: 250px;}
- 
+#wrap_services{background-color: #2c5383;max-width: none;}
+#wrap_services .item{margin: 50px 0px;display: flex;justify-content: center;}
+#wrap_services .item:first-child{margin-top: 0;}
+#wrap_services .bottom_payroll{padding:10px 40px;margin:15px;border:2px solid #fff;border-radius: 20px;font-weight: bold;}
+#wrap_services .bottom_cost{padding:10px 40px;margin:15px;border:2px solid #fff;border-radius: 20px;font-weight: bold;}
+#wrap_services .bottom_budget{padding:10px 40px;margin:15px;border:2px solid #fff;border-radius: 20px;font-weight: bold;}
+#wrap_services .item img{width: 100%;}
+ #wrap_services .item article{align-items: center;display: flex;flex-direction: column;justify-content: center;padding: 25px;width: 50%;}
+ #wrap_services .item figure{width: 50%;}
+ #wrap_services .master_content{max-width: none;}
+
+ /*anuncios de la pagina*/
+ #wrap_themes{background-color: #2d5a92;}
+ #wrap_themes .ad{padding: 20px;width: 50%;font-size: 2em;line-height:200%;letter-spacing: -1px;font-weight:200px;text-align: center;font-family: parrafo_2;color: rgb(0, 0, 0);}
+ #wrap_themes .pictures{padding: 20px;width: 50%;}
+ #wrap_themes .pictures img{height: 250px;width: 250px;}
+ #wrap_themes .master_content{display: flex;flex-wrap: wrap;}
+ #wrap_themes .pictures{display:flex;width:50%;flex-wrap: wrap;}
+ #wrap_themes .pictures .list {display: flex;
+  width: fit-content;
+  flex-direction: column;
+  text-align: center;
+  height: fit-content;
+  margin: 10px;
+  font-size: .8em;
+  background-color: #d3ebed;
+  border-radius: 15px;
+}
+#wrap_themes .as_info .bottom_page{margin-top:100px;border-radius: 8px;display: block;padding: 10px 40px;color: black;background-color: rgb(255, 255, 255)list;text-align: center;font-family: "parrafo_1";}
+#wrap_themes .pictures .list figcaption{max-width: 250px;width: 250px;word-break: break-all;}

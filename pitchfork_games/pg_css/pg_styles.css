@@ -1,13 +1,58 @@
-    /*estilos generales*/
+/*estilos generales red*/
+    /*========== ResetCSS ==========*/
+*,html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,tr,select,input{appearance:inherit; -moz-appearance:inherit; -webkit-appearance:inherit; background:transparent; border:none; border-radius:0; box-sizing: border-box; margin:0; outline:0; padding:0; text-decoration:none;}
+
+/*========= ALL ==========*/
+
+
+/*========== FONTS ==========*/
+@font-face {font-family:'Regular'; src:url('/red_font/Owsald-Regular.ttf');font-display: swap;}
+@font-face {font-family:'Bold'; src:url('/red_font/Owsald-Bold.ttf');font-display: swap;}
+@font-face {font-family:'Light'; src:url('/red_font/Owsald-Light.ttf');font-display: swap;}
+/*========== COLORS ==========*/
+:root {
+	--red_tone_1: #70A7D4;
+	--red_tone_2: #3D8ED1;
+	--red_tone_3: #265A85;
+	--red_tone_4: #193B57;
+    --red_gray: #788D9E;	
+	--red_white: #fff;	
+	--red_black: #000;	
+}
+
+/*========== CSS GENERALES ==========*/
+section{max-width: 1400px; width: 100%; margin: auto; position: relative;}
+img{width: 100%;}
+main{position: relative;}
+a{text-decoration: none; color: unset;}
+span {color:inherit;}
+.red_content{max-width: 1400px; width: 100%; margin: auto; position: relative;}
+body.home{background: #0606068a url('/red_images/background.png') ;}
+
+/*========== INICIO ==========*/
+#project_select{display: flex; flex-wrap: wrap; justify-content: center; margin-top:30vh; align-content: center;}
+#project_select .item{color: Black;margin: 10px 20px;}
+#project_select .item:hover figure{width: 320px; height: 320px;}
+#project_select .item:hover figure img{opacity: 1;}
+#project_select .item figure{width: 300px; height: 300px;box-shadow: 6px 10px 15px 9px #3c3c3c; transition: all 1s;}
+#project_select .item figure img{object-fit: cover;height: 100%;opacity: 0.8;}
+#project_select .item h1{text-align: center; margin-top: 15px; font-family: 'Regular'; color: white;letter-spacing: 5px;}
+
+/*========== IR HACIA EL BACKEND ==========*/
+#project_going_backend{text-align: center; padding: 90px 0;}
+#project_going_backend a{ margin:25px;transition: all .4s ; font-size:1em; text-decoration: none;margin-top: 15px; font-family: 'Regular'; color: white;letter-spacing: 5px;}
+#project_going_backend a:hover{ font-size:1.4em; color: aquamarine; }
+    
+/*estilos generales pg*/
 :root {--galeano_tone_1:#22BD84; --galeano_tone_2:#2E8867; --galeano_tone_3:#14704E; --galeano_tone_4:#0b4d37;}
 body{background: #fff;}
 *{font-family: "regular";}
 h1,h2,h3,h4,h5,h6{font-family: "bold"; letter-spacing: 5px; text-transform: uppercase;}
 
 /*fuentes*/
-@font-face {font-family: "bold"; src: url("/pitchfork_games/pg_fonts/FjallaOne-Regular.ttf");}
-@font-face {font-family: "light"; src: url("/pitchfork_games/pg_fonts/Recursive-Light-CASL=0-CRSV=0-MONO=1-slnt=0.ttf");}
-@font-face {font-family: "regular"; src: url("/pitchfork_games/pg_fonts/Quicksand-Regular.ttf");}
+@font-face {font-family: "bold"; src: url("/pg_fonts/FjallaOne-Regular.ttf");}
+@font-face {font-family: "light"; src: url("/pg_fonts/Recursive-Light-CASL=0-CRSV=0-MONO=1-slnt=0.ttf");}
+@font-face {font-family: "regular"; src: url("/pg_fonts/Quicksand-Regular.ttf");}
 
 /*banner*/
 #banner {max-width: none; height: 450px;}
@@ -142,7 +187,7 @@ footer{max-width: initial;background-color: #0c110f; background-attachment: fixe
 #wrap_contact form div input[type=submit]:hover{background-color:#22BD84;}
 
 /*pagina de contacto*/
-#banner_contact {background-image: url(/pitchfork_games/pg_images/ellie.jpg);}
+#banner_contact {background-image: url(/pg_images/ellie.jpg);}
 #wrap_contact {max-width: none; padding: 100px; display: flex; align-items: center; justify-content: space-between;}
 #wrap_contact form {max-width: 650px; width: 100%; margin: auto;}
 #wrap_contact h1 {color: var(--galeano_tone_1); font-size: 2em; letter-spacing: 3px; text-align: left; border-bottom: 1px solid; margin-bottom: 25px;}
@@ -155,7 +200,7 @@ footer{max-width: initial;background-color: #0c110f; background-attachment: fixe
 
 
 
-/*página de productos (listproducts.php)*/
+/*página de productos*/
 #wrap_list_product {padding: 50px 15px;}
 #wrap_list_product div {margin: 50px auto; padding: 0;}
 #wrap_list_product div h2 {font-size: 1.5em; text-align: center; margin-bottom: 40px;}
@@ -168,9 +213,9 @@ footer{max-width: initial;background-color: #0c110f; background-attachment: fixe
 #wrap_list_product .list_product .image_product .price_product p {color: grey; margin: 0 0 0 10px; text-decoration: line-through; display: none;}
 #wrap_list_product .list_product .image_product .button_product {padding: 8px 25px; margin: 15px; border: 2px solid #000000; border-radius: 20px; font-weight: bold; display: inline-block;}
 
-/*estilos de producto ps4*/
+/*estilos de producto*/
 #wrap_info_product .content h1 {text-align: center; padding: 25px; text-transform: uppercase; color: var(--galeano_tone_1); font-size: 20px;}
-#wrap_info_product {background-color: #EEE; background-color: #fff; padding: 8em 0 6em 0; position: relative; display: block; max-width: none; font-family:'Times New Roman'; font-size: 12px;}
+#wrap_info_product {background-color: #fff; padding: 8em 0 6em 0; position: relative; display: block; max-width: none; font-family:'Times New Roman'; font-size: 12px;}
 #wrap_info_product .product {display: flex;  margin: auto;justify-content: center; font-size: 12px;}
 #wrap_info_product .feature_left{display: flex;    background-color: #efefef; box-shadow: 1px 4px 6px 3px #0000003d;}
 #wrap_info_product .feature_left .image img{width: 530px;}
@@ -181,3 +226,16 @@ footer{max-width: initial;background-color: #0c110f; background-attachment: fixe
 #wrap_info_product .product:first-child{margin-bottom: 60px;}
 #wrap_info_product .product:nth-child(1){background-color: #fff;}
 #wrap_info_product .product:last-child .feature_left{flex-direction: row-reverse;}
+
+/*estilos intercambio juegos*/
+#wrap_info_exchange .content h1 {text-align: center; padding: 25px; text-transform: uppercase; color: var(--galeano_tone_1); font-size: 20px;}
+#wrap_info_exchange {background-image: url(/pg_images/fondointercamiojuegos.jpg); padding: 8em 0 6em 0; position: relative; display: block; max-width: none; font-family:'Times New Roman'; font-size: 12px;}
+#wrap_info_exchange .product {display: flex;  margin: auto;justify-content: center; font-size: 12px;}
+#wrap_info_exchange .feature_left{display: flex;    background-color: #efefef; box-shadow: 1px 4px 6px 3px #0000003d;}
+#wrap_info_exchange .feature_left .image img{width: 530px;}
+#wrap_info_exchange .feature_left .button_alt{ border: 2px solid var(--galeano_tone_1); border-radius: 20px; font-size: 1.5em; margin: 15px; padding: 10px 40px; color: #fff; background-color:#22BD84; display: block; width: max-content;}
+#wrap_info_exchange .feature_left p{line-height: 1.5em;}
+#wrap_info_exchange div article span {background-size: 50%;}
+#wrap_info_exchange .content{width: 700px;padding: 20px;}
+#wrap_info_exchange .product:first-child{margin-bottom: 60px;}
+#wrap_info_exchange .product:last-child .feature_left{flex-direction: row-reverse;}
