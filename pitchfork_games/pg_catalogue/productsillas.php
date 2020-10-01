@@ -42,7 +42,7 @@
     </div>
  </header>
  <section id="wrap_list_product">
-<div class="red_content">
+<div class="pg_content">
     <h2>SILLAS DISPONIBLES</h2>
     <div class="list_product">
         <figure class="image_product"> <estas imagaenes deben ser 800x800>
@@ -102,7 +102,7 @@
 </body>
 <footer>
     <section class="footer" id="wrap_footer">
-        <!--div class="red_content">
+        <!--div class="pg_content">
             <form action="/pitchfork_games/datos.php" id="form_contact" method="POST">
             <input type="text" name="username" id="username" placeholder="Correo electronico">
             <input type="text" name="name" id="name" placeholder="Nombre">

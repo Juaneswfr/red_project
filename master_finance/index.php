@@ -8,7 +8,7 @@
     <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <title>Master Finance</title>
-    <link href="/css/styles.css"rel="stylesheet">
+    <link href="/css/styles.css?<?php echo time();?>" rel="stylesheet">
 </head>
 <body>
     <main>
@@ -123,6 +123,38 @@
                 </figure>
             </div>
         </div>
+    </section>
+    <section id="wrap_add_platzi">
+        <div class="master_content">
+            <div class="platzi">
+                <figure class="logo_platzi">
+                    <img src="/images/logo_platzi.png"alt="ad_logo1">
+                </figure>
+                <div class=people_platzi>
+                    <figure class="three">
+                        <img src="/images/persona_3.png"alt="ad_per3">
+                    </figure>
+                    <figure class="five">
+                        <img src="/images/persona_5.png"alt="ad_per5">
+                    </figure>
+                    <figure class="two">
+                        <img src="/images/persona_2.png"alt="ad_per2">
+                    </figure>
+                    <figure class="four">
+                        <img src="/images/persona_4.png"alt="ad_per4">
+                    </figure>
+                    <figure class="one">
+                        <img src="/images/persona_1.png"alt="ad_per1">
+                    </figure>
+                </div>
+                <div class="resume_platzi">
+                    <h2>HOLA PLATZI!<h2>
+                    <p>¡Hola, soy andres murgas, llevo 1 mes y medio en el curso de mi gran hpta de juanes y he aprendido lo necesario para ser un front-end Developer!</p>
+                    <figure class="logo_ico">
+                        <img src="/images/logo_ico.png">
+                    </figure>
+                </div>
+         </div>
     </section>
     <footer>
         <section class="footer" id="wrap_footer">

@@ -5,7 +5,7 @@
         </figure>
     </section>
     <section id="wrap_submenu_home">
-        <div class="red_content">
+        <div class="pg_content">
             <div class="icons">
                 <a href="/pg_catalogue/productconsolas.php">
                     <div>
@@ -103,7 +103,7 @@
         <img src="/pg_images/starwarsbtf2.jpg" alt="banner">
     </figure>
         <div class="promo">
-            <div class="red_content">
+            <div class="pg_content">
                 <article>
                     <h2>STAR WARS BATTLEFRONT II</h2>
                     <p>Disfruta de la espectagular guerra de galaxias en tú consola</p>
@@ -113,7 +113,7 @@
         </div>    
     </section>    
     <section id="one" class="wrapper_style">
-        <div class="red_content">
+        <div class="pg_content">
             <div class="inner">
                 <article class="feature_left">
                     <figure class="image">
@@ -140,4 +140,49 @@
             </div> 
         </div>
     </section>
+    <section id="wrap_logo_prog">
+        <div class="pg_content">
+            <div class="info_platzi">
+                <article>
+                    <h1>Hola, Platzi !</h1>
+                    <p>Hola soy andrés galeano hace 3 meses estoy en el curso de mi gran amigo juan esteban ramirez y he aprendido lo necesario para ser un Front-end Developer! </p>
+                </article>
+            </div>
+            <div class="logo_platzi">
+                <figure>
+                    <img src="/pg_images/platzi/logo_platzi.png" alt="platzi">
+                </figure>
+            </div>
+            <div class="logo_pc">
+                <figure>
+                    <img src="/pg_images/platzi/logo_ico.png" alt="pc dev op">
+                </figure>
+            </div>
+            <div class="people_1">
+                <figure>
+                    <img src="/pg_images/platzi/persona_1.png" alt="persona 1">
+                </figure>
+            </div>
+            <div class="people_2">
+                <figure>
+                    <img src="/pg_images/platzi/persona_2.png" alt="persona 2">
+                </figure>
+            </div>
+            <div class="people_3">
+                <figure>
+                    <img src="/pg_images/platzi/persona_3.png" alt="persona 3">
+                </figure>
+            </div>
+            <div class="people_4">
+                <figure>
+                    <img src="/pg_images/platzi/persona_4.png" alt="persona 4">
+                </figure>
+            </div>
+            <div class="people_5">
+                <figure>
+                    <img src="/pg_images/platzi/persona_5.png" alt="persona 5">
+                </figure>
+            </div>
+        </div>
+    </section>  
 </main>

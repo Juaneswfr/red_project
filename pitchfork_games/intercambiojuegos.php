@@ -60,7 +60,7 @@
 </body>
 <footer>
     <section class="footer" id="wrap_footer">
-        <!--div class="red_content">
+        <!--div class="pg_content">
             <form action="datos.php" id="form_contact" method="POST">
             <input type="text" name="username" id="username" placeholder="Correo electronico">
             <input type="text" name="name" id="name" placeholder="Nombre">

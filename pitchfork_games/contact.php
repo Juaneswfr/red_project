@@ -42,7 +42,7 @@
  </header>
  <section id="banner_contact">
     <section id="wrap_contact">
-        <div class="red_content">
+        <div class="pg_content">
             <form action="datos.php" id="form_contact" method="POST">
                 <fieldset>
                 <h1>Contáctanos</h1>
@@ -75,7 +75,7 @@
 </body>
 <footer>
     <section class="footer" id="wrap_footer">
-        <!--div class="red_content">
+        <!--div class="pg_content">
             <form action="datos.php" id="form_contact" method="POST">
             <input type="text" name="username" id="username" placeholder="Correo electronico">
             <input type="text" name="name" id="name" placeholder="Nombre">

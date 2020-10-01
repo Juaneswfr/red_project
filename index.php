@@ -7,16 +7,8 @@
         <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
         <meta http-equiv="Pragma" content="no-cache">
         <script src="https://kit.fontawesome.com/f7bc814e34.js" crossorigin="anonymous"></script>
-
+        <link href="/red_css/red_styles.css?<?= time();?>" rel="stylesheet">
         <link rel="icon" type="image/png" href="/red_images/favicon.png">
-
-         <script type="text/javascript">
-            var estilosjuanes = '/red_css/red_styles.css?' + Math.random();
-          </script>
-          
-          <script type="text/javascript">
-            document.write('<link href="' + estilosjuanes + '" rel="stylesheet">');
-          </script>
 
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,34 +29,34 @@
                 </a> */ 
                 ?>
                 
-                <a class="item" href="/pitchfork_games/">
+                <a class="item" href="/pitchfork_games/http://pitchfork-games.jinnovator.site">
                     <figure>
-                        <img src="/pitchfork_games/pg_images/logo300px.png" alt="Videojuegos compra todo lo que quieras">
+                        <img src="/pitchfork_games/pg_images/LogoPitch.jpg" alt="Videojuegos compra todo lo que quieras">
                     </figure>
                     <h1>PITCHFORK GAMES</h1>
                 </a>
 
-                <a class="item" href="/aesclothes/">
+                <a class="item" href="/aesclothes/http://aesclothes.jinnovator.site/">
                     <figure>
                         <img src="/red_images/aesclothes_icon.png" alt="Ropa compra todo lo que quieras">
                     </figure>
                     <h1>AESCLOTHES</h1>
                 </a>
-                <a class="item" href="/master_finance/">
+                <a class="item" href="/master_finance/http://master-finance.jinnovator.site">
                     <figure>
                         <img src="/master_finance/images/logoportada.jpg" alt="Finanzas pa todo el mundo">
                     </figure>
                     <h1>MASTER FINANCE</h1>
                 </a>
-                <a class="item" href="/tecnoar/">
+                <a class="item" href="/tecnoar/http://tecnoar.jinnovator.site/">
                     <figure>
                         <img src="https://www.avantel.co/blog/wp-content/uploads/2019/07/14.Los-accesorios-para-celulares-ma%E2%95%A0%C3%BCs-y-menos-u%E2%95%A0%C3%BCtiles.jpg" alt="Ropa compra todo lo que quieras">
                     </figure>
                     <h1>TECNOAR</h1>
                 </a>
-                <a class="item" href="/jumping_cupcakes/">
+                <a class="item" href="/jumping_cupcakes/http://jumping-cupcakes.jinnovator.site">
                     <figure>
-                        <img src="https://pbs.twimg.com/media/EMkIOykXsAUbcvj.jpg" alt="Finanzas pa todo el mundo">
+                        <img src="/jumping_cupcakes/images/LogoJumping.png" alt="Finanzas pa todo el mundo">
                     </figure>
                     <h1>JUMPING CUPCAKES</h1>
                 </a>
@@ -81,4 +73,3 @@
         </main>
 
     </body>
-<
