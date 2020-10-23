@@ -158,27 +158,19 @@
                     <img src="/pg_images/platzi/logo_ico.png" alt="pc dev op">
                 </figure>
             </div>
-            <div class="people_1">
+            <div class="people_platzi">
                 <figure>
                     <img src="/pg_images/platzi/persona_1.png" alt="persona 1">
                 </figure>
-            </div>
-            <div class="people_2">
                 <figure>
                     <img src="/pg_images/platzi/persona_2.png" alt="persona 2">
                 </figure>
-            </div>
-            <div class="people_3">
                 <figure>
                     <img src="/pg_images/platzi/persona_3.png" alt="persona 3">
                 </figure>
-            </div>
-            <div class="people_4">
                 <figure>
                     <img src="/pg_images/platzi/persona_4.png" alt="persona 4">
                 </figure>
-            </div>
-            <div class="people_5">
                 <figure>
                     <img src="/pg_images/platzi/persona_5.png" alt="persona 5">
                 </figure>

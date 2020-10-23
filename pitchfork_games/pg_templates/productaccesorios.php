@@ -1,26 +1,4 @@
     <main>
-    <header class="wrapper_catalogue">
-    <div class="wrapper">
-        <div class="logo">
-            <img src="/pg_images/pg_logo_header.png" alt="logo">
-        </div>
-        <nav>
-            <a href="/index.php">Inicio</a>
-            <div class="link_submenu">
-                <a href="#">Productos</a>
-                <li class="submenu">
-                    <ul>
-                        <li><a href="productconsolas.php">Consolas</a></li>       
-                        <li><a href="productjuegos.php">Juegos</a></li>       
-                        <li><a href="productaccesorios.php">Accesorios y perifericos</a></li>       
-                        <li><a href="productsillas.php">Sillas</a></li>
-                    </ul>           
-                </li>
-            </div>    
-            <a href="/contact.php">Contactanos</a>
-        </nav>
-    </div>
- </header>
  <section id="wrap_list_product">
 <div class="pg_content">
     <h2>ACCESORIOS DISPONIBLES</h2>

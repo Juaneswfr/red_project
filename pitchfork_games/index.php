@@ -14,7 +14,7 @@
 <body>
 <?php 
 include $_SERVER['DOCUMENT_ROOT'].'/pg_view/pg_header.php';
-include $_SERVER['DOCUMENT_ROOT'].'/pg_templates/home.php';
+include $_SERVER['DOCUMENT_ROOT'].'/pg_templates/'.$_GET['template'].'.php';
 ?>
 </body>
 <?php

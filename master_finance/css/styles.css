@@ -96,7 +96,11 @@ footer{max-width: initial;background-color:var(--mf_tone_5); background-attachme
 #wrap_themes .pictures .list figcaption{max-width: 250px;width: 250px;word-break: break-all;}
 /*anuncio platzi*/
 #wrap_add_platzi{background-color: var(--mf_tone_5);}
-#wrap_add_platzi .logo_platzi{width: 100px;height: 400px;}
+#wrap_add_platzi .logo_platzi{width: 300px;height: 400px;}
 #wrap_add_platzi .master_content{display:flex;}
-#wrap_add_platzi .people_platzi{width: 80px;height: 80px;}
-#wrap_add_platzi .resume_platzi .logo_ico{width: 80px;height: 80px;}
+#wrap_add_platzi .people_platzi{width: 50%;display: flex;justify-content: center;}
+#wrap_add_platzi .resume_platzi .logo_ico{width: 200px;height: 200px;}
+#wrap_add_platzi .platzi{width: 50%;}
+#wrap_add_platzi .resume_platzi{width: 50%;}
+#wrap_add_platzi .images_platzi{width: 100%; display: flex;justify-content: center;max-width: 500px;}
+

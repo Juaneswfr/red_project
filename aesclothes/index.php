@@ -44,24 +44,31 @@
             </section>
         </section>
         <section id="platzi_proyect">
-            <div class="platzi_image_content">
-                <figure class="platzi_logo"><img src="/images/platzi/logo_platzi.png"></figure>
-                <div class="people_group">
-                    <figure class="people">
-                        <img src="/images/platzi/persona_3.png">
-                    </figure>
-                    <figure class="people">
-                        <img src="/images/platzi/persona_5.png">
-                    </figure>
-                    <figure class="people">
-                        <img src="/images/platzi/persona_2.png">
-                    </figure>
-                    <figure class="people">
-                        <img src="/images/platzi/persona_4.png">
-                    </figure>
-                    <figure class="people">
-                        <img src="/images/platzi/persona_1.png">
-                    </figure>
+            <div class="ae_content">
+                <div class="platzi_image_content">
+                    <div class="people_group">
+                        <figure class="people">
+                            <img src="/images/platzi/persona_1.png">
+                        </figure>
+                        <figure class="people">
+                            <img src="/images/platzi/persona_2.png">
+                        </figure>
+                        <figure class="people">
+                            <img src="/images/platzi/persona_3.png">
+                        </figure>
+                        <figure class="people">
+                            <img src="/images/platzi/persona_4.png">
+                        </figure>
+                        <figure class="people">
+                            <img src="/images/platzi/persona_5.png">
+                        </figure>
+                    </div>
+                </div>
+                <div class="platzi_word_content">
+                    <article>
+                        <h2>Hola Platzi!</h2>
+                        <p></p>
+                    </article>
                 </div>
             </div>
         </section>

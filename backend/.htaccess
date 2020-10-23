@@ -29,6 +29,7 @@
 		RewriteRule ^dashboard$ /backend/index.php?option=dashboard
 
 
+
 		# ========================================= #
 		# =============== MODULOS ================= #
 		# ========================================= #
@@ -37,6 +38,7 @@
 		# ========================= USER ========================= #
 
 		RewriteRule ^user$ /backend/index.php?option=user
+		RewriteRule ^user/([^/]*)$ /backend/index.php?option=user&url=$1
 
 
 	#####################################################################

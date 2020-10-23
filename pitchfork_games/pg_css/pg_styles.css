@@ -244,8 +244,10 @@ footer{max-width: initial;background-color: #0c110f; background-attachment: fixe
 #productonuevo {background-color: #fff; padding: 15px 15px;}
 
 /*platzi*/
-#wrap_logo_prog {display: flex; max-width: none; background-color: var(--galeano_tone_1);}
-#wrap_logo_prog .info_platzi article {max-width: 400px; width: 100%; z-index: 1; position: absolute; bottom: 20%; padding: 40px; right: 0;}
+#wrap_logo_prog {display: flex; max-width: none; background-color: var(--galeano_tone_1); background-image: url(/pg_images/platzi/textura.png);}
+#wrap_logo_prog .info_platzi article {max-width: 522px; width: 100%; z-index: 1; position: absolute; bottom: 43%; margin: 20px; right: 27px; padding: 10px; font-size: 30px;}
 #wrap_logo_prog .info_platzi article h1 {padding: 0 0 45px 0;} 
 #wrap_logo_prog .info_platzi article p {padding: 0 0 45px 0;}
 #wrap_logo_prog .logo_platzi {width: 350px; height: 350px;}
+#wrap_logo_prog .logo_pc {max-width: 200px; width: 100%; position: absolute; bottom: 100px; right: 200px;}
+#wrap_logo_prog .people_platzi {display: flex; max-width: 500px; width: 50%;}

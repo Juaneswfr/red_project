@@ -7,7 +7,7 @@ img{width: 100%;}
 main{position: relative;}
 a{text-decoration: none; color: unset;}
 span {color:inherit;}
-
+.ae_content{max-width: 1400px; width: 100%; margin: auto; position: relative;}
 /*==========Colors===========*/
 :root{
     --angel_tone_1: #491D66;
@@ -242,14 +242,12 @@ body#testing_contact{ display: flex ; background: linear-gradient(0deg, rgba(46,
 
 /*==============================Platzi===========================================*/
 
-#platzi_proyect{ background-color: var(--angel_tone_5); display: flex; height: 700px; background-image: url(/images/platzi/textura.png); background-size: cover; }
-#platzi_proyect .platzi_image_content .platzi_logo img{ width: 400px;}
-#platzi_proyect .platzi_image_content .platzi_logo{z-index: 2; position: relative; top: -75px; left: 100px;}
+#platzi_proyect{ background-color: var(--angel_tone_5); display: flex; height: 700px; background-image: url(/images/platzi/textura.png); background-size: cover; max-width: none;}
+#platzi_proyect .platzi_image_content { width: 50%}
 #platzi_proyect .platzi_image_content .people_group .people img{ width: 110px; height: 400px;}
 #platzi_proyect .platzi_image_content .people_group .people{ z-index: 3; position: relative;}
-#platzi_proyect .platzi_image_content div.people_group{ display: flex; position: relative; top: -230px; left: 135px;}
-#platzi_proyect .platzi_image_content div.people_group .people:nth-child(1){ z-index: 3; left: 20px}
-#platzi_proyect .platzi_image_content div.people_group .people:nth-child(2){top: -10px;}
-#platzi_proyect .platzi_image_content div.people_group .people:nth-child(3){ z-index: 3;}
-#platzi_proyect .platzi_image_content div.people_group .people:nth-child(4){top: -10px;}
-#platzi_proyect .platzi_image_content div.people_group .people:nth-child(5){ z-index: 3; right: 25px}
+#platzi_proyect .platzi_image_content div.people_group{ display: flex; position: relative; margin: 200px;}
+#platzi_proyect .platzi_image_content div.people_group .people:nth-child(2){ right: 20px; bottom: 20px;}
+#platzi_proyect .platzi_image_content div.people_group .people:nth-child(3){ right: 40px;}
+#platzi_proyect .platzi_image_content div.people_group .people:nth-child(4){ right: 80px; bottom: 20px; z-index: 2;}
+#platzi_proyect .platzi_image_content div.people_group .people:nth-child(5){ right: 110px;}
